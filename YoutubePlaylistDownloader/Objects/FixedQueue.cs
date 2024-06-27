@@ -7,9 +7,11 @@ class FixedQueue<T>(int size) : Queue<T>()
 	public new void Enqueue(T item)
 	{
 		while (Count >= size)
-			Dequeue();
+        {
+            Dequeue();
+        }
 
-		base.Enqueue(item);
+        base.Enqueue(item);
 	}
 
 }

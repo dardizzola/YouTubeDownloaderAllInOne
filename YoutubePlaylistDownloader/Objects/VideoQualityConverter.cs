@@ -13,13 +13,17 @@ public class VideoQualityConverter : JsonConverter
 		while (reader.Read())
 		{
 			if (reader.TokenType != JsonToken.PropertyName)
-				break;
+            {
+                break;
+            }
 
-			var propertyName = (string)reader.Value;
+            var propertyName = (string)reader.Value;
 			if (!reader.Read())
-				continue;
+            {
+                continue;
+            }
 
-			if (propertyName == "Label")
+            if (propertyName == "Label")
 			{
 				label = serializer.Deserialize<string>(reader);
 			}

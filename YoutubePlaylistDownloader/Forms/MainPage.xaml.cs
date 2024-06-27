@@ -140,9 +140,11 @@ public partial class MainPage : UserControl
 					PlaylistInfoImage.Visibility = Visibility.Visible;
 				}
 				else
-					PlaylistInfoImage.Visibility = Visibility.Collapsed;
+                {
+                    PlaylistInfoImage.Visibility = Visibility.Collapsed;
+                }
 
-				PlaylistInfoGrid.Visibility = vis;
+                PlaylistInfoGrid.Visibility = vis;
 				PlaylistTitleTextBlock.Text = title;
 				PlaylistAuthorTextBlock.Text = author;
 				PlaylistViewsTextBlock.Text = views;

@@ -6,22 +6,22 @@
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{444538EE-4F35-4245-AEAE-6C149BB852B8}
-AppName=YouTube Playlist Downloader
+AppName=La Mucca Rossa Video Downloader
 AppVersion=1.9.24
-AppVerName=YouTube Playlist Downloader 1.9.24
-AppPublisher=shaked6540
-AppPublisherURL=https://github.com/shaked6540/YoutubePlaylistDownloader
-AppSupportURL=https://github.com/shaked6540/YoutubePlaylistDownloader
-AppUpdatesURL=https://github.com/shaked6540/YoutubePlaylistDownloader
-DefaultDirName={commonpf}\YouTube Playlist Downloader
-DefaultGroupName=YouTube Playlist Downloader
+AppVerName=La Mucca Rossa Video Downloader 1.9.24
+AppPublisher=dardizzola
+AppPublisherURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
+AppSupportURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
+AppUpdatesURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
+DefaultDirName={commonpf}\La Mucca Rossa Video Downloader
+DefaultGroupName=La Mucca Rossa Video Downloader
 AllowNoIcons=yes
 OutputDir=..\Installer Output\1.9.24\
-OutputBaseFilename=YoutubePlaylistDownloader
+OutputBaseFilename=LaMuccaRossaVideoDownloader
 SetupIconFile=..\YoutubePlaylistDownloader\finalIcon.ico
 Compression=lzma
 SolidCompression=yes
-UninstallDisplayIcon=..\YoutubePlaylistDownloader\finalIcon.ico
+UninstallDisplayIcon=..\LaMuccaRossaVideoDownloader\finalIcon.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -37,8 +37,8 @@ Source: "..\FFmpeg\ffmpeg.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files        
 
 [Icons]
-Name: "{group}\YouTube Playlist Downloader"; Filename: "{app}\YoutubePlaylistDownloader.exe"
-Name: "{commondesktop}\YouTube Playlist Downloader"; Filename: "{app}\YoutubePlaylistDownloader.exe"; Tasks: desktopicon
+Name: "{group}\La Mucca Rossa Video Downloader"; Filename: "{app}\YoutubePlaylistDownloader.exe"
+Name: "{commondesktop}\La Mucca Rossa Video Downloader"; Filename: "{app}\YoutubePlaylistDownloader.exe"; Tasks: desktopicon
 
 [Run]
 Filename: "{app}\YoutubePlaylistDownloader.exe"; Description: "{cm:LaunchProgram,YouTube Playlist Downloader}"; Flags: nowait postinstall skipifsilent

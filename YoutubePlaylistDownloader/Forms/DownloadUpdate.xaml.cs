@@ -121,10 +121,14 @@ public partial class DownloadUpdate : UserControl, IDownload
 		await response.Content.CopyToAsync(fs, cancellationTokenSource.Token).ContinueWith(async a =>
 		{
 			if (GlobalConsts.UpdateLater)
-				await DownloadCompletedLater(this, new AsyncCompletedEventArgs(null, a.IsCanceled, null));
-			else
-				await DownloadFileCompleted(this, new AsyncCompletedEventArgs(null, a.IsCanceled, null));
-		});
+            {
+                await DownloadCompletedLater(this, new AsyncCompletedEventArgs(null, a.IsCanceled, null));
+            }
+            else
+            {
+                await DownloadFileCompleted(this, new AsyncCompletedEventArgs(null, a.IsCanceled, null));
+            }
+        });
 	}
 
 	private async void DownloadProgressChanged(object sender, ProgressStreamReportEventArgs args)

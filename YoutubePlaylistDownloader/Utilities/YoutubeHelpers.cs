@@ -8,13 +8,17 @@ public static partial class YoutubeHelpers
 	public static bool ValidateVideoId(string videoId)
 	{
 		if (string.IsNullOrWhiteSpace(videoId))
-			return false;
+        {
+            return false;
+        }
 
-		// Video IDs are always 11 characters
-		if (videoId.Length != 11)
-			return false;
+        // Video IDs are always 11 characters
+        if (videoId.Length != 11)
+        {
+            return false;
+        }
 
-		return !VideoRegex().IsMatch(videoId);
+        return !VideoRegex().IsMatch(videoId);
 	}
 
 	/// <summary>
@@ -25,9 +29,11 @@ public static partial class YoutubeHelpers
 		videoId = default;
 
 		if (string.IsNullOrWhiteSpace(videoUrl))
-			return false;
+        {
+            return false;
+        }
 
-		var result = VideoId.TryParse(videoUrl);
+        var result = VideoId.TryParse(videoUrl);
 
 		if (result != null)
 		{
@@ -53,9 +59,11 @@ public static partial class YoutubeHelpers
 	public static bool ValidatePlaylistId(string playlistId)
 	{
 		if (string.IsNullOrWhiteSpace(playlistId))
-			return false;
+        {
+            return false;
+        }
 
-		return PlaylistId.TryParse(playlistId) != null;
+        return PlaylistId.TryParse(playlistId) != null;
 	}
 
 	/// <summary>
@@ -66,10 +74,12 @@ public static partial class YoutubeHelpers
 		playlistId = default;
 
 		if (string.IsNullOrWhiteSpace(playlistUrl))
-			return false;
+        {
+            return false;
+        }
 
-		// https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
-		var regularMatch = RegularRegex().Match(playlistUrl).Groups[1].Value;
+        // https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H
+        var regularMatch = RegularRegex().Match(playlistUrl).Groups[1].Value;
 		if (!string.IsNullOrWhiteSpace(regularMatch) && ValidatePlaylistId(regularMatch))
 		{
 			playlistId = PlaylistId.Parse(regularMatch);
@@ -117,13 +127,17 @@ public static partial class YoutubeHelpers
 	public static bool ValidateUsername(string username)
 	{
 		if (string.IsNullOrWhiteSpace(username))
-			return false;
+        {
+            return false;
+        }
 
-		// Usernames can't be longer than 20 characters
-		if (username.Length > 20)
-			return false;
+        // Usernames can't be longer than 20 characters
+        if (username.Length > 20)
+        {
+            return false;
+        }
 
-		return !UserNameRegex().IsMatch(username);
+        return !UserNameRegex().IsMatch(username);
 	}
 
 	/// <summary>
@@ -134,10 +148,12 @@ public static partial class YoutubeHelpers
 		username = default;
 
 		if (string.IsNullOrWhiteSpace(userUrl))
-			return false;
+        {
+            return false;
+        }
 
-		// https://www.youtube.com/user/TheTyrrr
-		var regularMatch = UserRegex().Match(userUrl).Groups[1].Value;
+        // https://www.youtube.com/user/TheTyrrr
+        var regularMatch = UserRegex().Match(userUrl).Groups[1].Value;
 		if (ValidateUsername(regularMatch))
 		{
 			username = regularMatch;
@@ -152,10 +168,12 @@ public static partial class YoutubeHelpers
 		handle = default;
 
 		if (string.IsNullOrWhiteSpace(handleUrl))
-			return false;
+        {
+            return false;
+        }
 
-		// https://www.youtube.com/@LesIngenieurs
-		var handleFormat = HandleRegex().Match(handleUrl).Groups[1].Value;
+        // https://www.youtube.com/@LesIngenieurs
+        var handleFormat = HandleRegex().Match(handleUrl).Groups[1].Value;
 		if (ValidateUsername(handleFormat))
 		{
 			handle = handleFormat;
@@ -179,17 +197,23 @@ public static partial class YoutubeHelpers
 	public static bool ValidateChannelId(string channelId)
 	{
 		if (string.IsNullOrWhiteSpace(channelId))
-			return false;
+        {
+            return false;
+        }
 
-		// Channel IDs should start with these characters
-		if (!channelId.StartsWith("UC", StringComparison.Ordinal))
-			return false;
+        // Channel IDs should start with these characters
+        if (!channelId.StartsWith("UC", StringComparison.Ordinal))
+        {
+            return false;
+        }
 
-		// Channel IDs are always 24 characters
-		if (channelId.Length != 24)
-			return false;
+        // Channel IDs are always 24 characters
+        if (channelId.Length != 24)
+        {
+            return false;
+        }
 
-		return !VideoRegex().IsMatch(channelId);
+        return !VideoRegex().IsMatch(channelId);
 	}
 
 	/// <summary>
@@ -200,10 +224,12 @@ public static partial class YoutubeHelpers
 		channelId = default;
 
 		if (string.IsNullOrWhiteSpace(channelUrl))
-			return false;
+        {
+            return false;
+        }
 
-		// https://www.youtube.com/channel/UC3xnGqlcL3y-GXz5N3wiTJQ
-		var regularMatch = ChannelRegex().Match(channelUrl).Groups[1].Value;
+        // https://www.youtube.com/channel/UC3xnGqlcL3y-GXz5N3wiTJQ
+        var regularMatch = ChannelRegex().Match(channelUrl).Groups[1].Value;
 		if (!string.IsNullOrWhiteSpace(regularMatch) && ValidateChannelId(regularMatch))
 		{
 			channelId = regularMatch;

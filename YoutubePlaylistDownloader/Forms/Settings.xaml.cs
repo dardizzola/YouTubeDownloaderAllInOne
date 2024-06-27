@@ -12,8 +12,12 @@ public partial class Settings : UserControl
 		FillAccents();
 		FillLanguages();
 
-		if (GlobalConsts.settings.Theme == "Dark") NightModeCheckBox.IsChecked = true;
-		CheckForUpdatesCheckBox.IsChecked = GlobalConsts.settings.CheckForProgramUpdates;
+		if (GlobalConsts.settings.Theme == "Dark")
+        {
+            NightModeCheckBox.IsChecked = true;
+        }
+
+        CheckForUpdatesCheckBox.IsChecked = GlobalConsts.settings.CheckForProgramUpdates;
 		SaveDownloadOptionsCheckBox.IsChecked = GlobalConsts.settings.SaveDownloadOptions;
 		LimitConversionsCheckBox.IsChecked = GlobalConsts.settings.LimitConversions;
 		ConfirmOnExitCheckBox.IsChecked = GlobalConsts.settings.ConfirmExit;
@@ -112,8 +116,10 @@ public partial class Settings : UserControl
 			ActualConversionTextBox.Background = null;
 			var delta = actual - GlobalConsts.ConversionsLocker.CurrentCount;
 			if (delta > 0)
-				GlobalConsts.ConversionsLocker.Release(delta);
-			else
+            {
+                GlobalConsts.ConversionsLocker.Release(delta);
+            }
+            else
 			{
 				delta = Math.Abs(delta);
 				for (var i = 0; i < delta; i++)

@@ -9,8 +9,10 @@ public static class ExtensionMethods
 		foreach (var valueTask in tasks)
 		{
 			if (!valueTask.IsCompletedSuccessfully)
-				toAwait.Add(valueTask.AsTask());
-		}
+            {
+                toAwait.Add(valueTask.AsTask());
+            }
+        }
 
 		await Task.WhenAll(toAwait).ConfigureAwait(false);
 	}

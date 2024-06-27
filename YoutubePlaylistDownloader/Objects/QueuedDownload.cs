@@ -9,15 +9,21 @@ class QueuedDownload(IDownload downloadItem) : IDisposable
 	public Border GetDisplayGrid()
 	{
 		if (border == default(Border))
-			Build();
+        {
+            Build();
+        }
 
-		return border;
+        return border;
 	}
 
 	public void Build()
 	{
-		if (built) return;
-		if (item == null)
+		if (built)
+        {
+            return;
+        }
+
+        if (item == null)
 		{
 			built = true;
 			return;
@@ -27,8 +33,10 @@ class QueuedDownload(IDownload downloadItem) : IDisposable
 		DisplayGrid.MouseLeftButtonDown += (sender, args) =>
 		{
 			if (args.ClickCount == 2)
-				item.OpenFolder_Click(null, null);
-		};
+            {
+                item.OpenFolder_Click(null, null);
+            }
+        };
 		DisplayGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
 		DisplayGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
 		DisplayGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
@@ -64,8 +72,10 @@ class QueuedDownload(IDownload downloadItem) : IDisposable
 		{
 			var remove = await item.Cancel();
 			if (remove)
-				GlobalConsts.Downloads.Remove(this);
-		};
+            {
+                GlobalConsts.Downloads.Remove(this);
+            }
+        };
 
 		//Col 0:
 		Grid.SetRow(stopButton, 0);

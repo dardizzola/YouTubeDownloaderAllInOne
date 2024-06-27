@@ -165,9 +165,11 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 		}
 
 		if (!Directory.Exists(SavePath))
-			Directory.CreateDirectory(SavePath);
+        {
+            Directory.CreateDirectory(SavePath);
+        }
 
-		AudioOnly = settings.AudioOnly;
+        AudioOnly = settings.AudioOnly;
 		TagAudioFile = settings.TagAudioFile;
 		PreferHighestFPS = settings.PreferHighestFPS;
 
@@ -185,11 +187,15 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 		CurrentDownloadSpeed = $"{FindResource("DownloadSpeed")}: 0 MiB/s";
 
 		if (settings.Convert || settings.AudioOnly)
-			StartDownloadingWithConverting(playlist.BasePlaylist?.Id, cts.Token).ConfigureAwait(false);
-		else
-			StartDownloading(cts.Token).ConfigureAwait(false);
+        {
+            StartDownloadingWithConverting(playlist.BasePlaylist?.Id, cts.Token).ConfigureAwait(false);
+        }
+        else
+        {
+            StartDownloading(cts.Token).ConfigureAwait(false);
+        }
 
-		GlobalConsts.Downloads.Add(new QueuedDownload(this));
+        GlobalConsts.Downloads.Add(new QueuedDownload(this));
 	}
 
 	public static async Task SequenceDownload(IEnumerable<string> links, DownloadSettings settings, bool silent = false)
@@ -286,9 +292,11 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 				var video = Videos.ElementAtOrDefault(i);
 
 				if (video == default(IVideo))
-					goto exit;
+                {
+                    goto exit;
+                }
 
-				indexes.Add(video, i + 1);
+                indexes.Add(video, i + 1);
 				try
 				{
 					await Dispatcher.InvokeAsync(() =>
@@ -306,9 +314,11 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 					var fileLoc = $"{GlobalConsts.TempFolderPath}{cleanFileNameWithID}";
 
 					if (AudioOnly)
-						FileType = bestQuality.Container.Name;
+                    {
+                        FileType = bestQuality.Container.Name;
+                    }
 
-					var outputFileLoc = $"{GlobalConsts.TempFolderPath}{cleanFileNameWithID}.{FileType}";
+                    var outputFileLoc = $"{GlobalConsts.TempFolderPath}{cleanFileNameWithID}.{FileType}";
 					var copyFileLoc = $"{SavePath}\\{cleanFileName}.{FileType}";
 
 					if (GlobalConsts.DownloadSettings.SkipExisting && File.Exists(copyFileLoc))
@@ -357,9 +367,11 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 								}
 
 								if (!sw.IsRunning)
-									sw.Start();
+                                {
+                                    sw.Start();
+                                }
 
-								await Dispatcher.InvokeAsync(() =>
+                                await Dispatcher.InvokeAsync(() =>
 														{
 															try
 															{
@@ -572,9 +584,10 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 			});
 
 			if (GlobalConsts.DownloadSettings.OpenDestinationFolderWhenDone)
-				OpenFolder_Click(null, null);
-
-		}
+            {
+                OpenFolder_Click(null, null);
+            }
+        }
 		catch (Exception ex)
 		{
 			await GlobalConsts.Log(ex.ToString(), "DownloadPage With converting");
@@ -605,9 +618,11 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 			var video = Videos.ElementAtOrDefault(i);
 
 			if (video == default(IVideo))
-				goto exit;
+            {
+                goto exit;
+            }
 
-			try
+            try
 			{
 				await Dispatcher.InvokeAsync(() =>
 				{
@@ -684,9 +699,11 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 
 							}
 							if (!sw.IsRunning)
-								sw.Start();
+                            {
+                                sw.Start();
+                            }
 
-							await Dispatcher.InvokeAsync(() =>
+                            await Dispatcher.InvokeAsync(() =>
 												{
 													try
 													{
@@ -889,9 +906,11 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 		await Task.WhenAll(conversionTasks);
 
 		if (GlobalConsts.DownloadSettings.OpenDestinationFolderWhenDone)
-			OpenFolder_Click(null, null);
+        {
+            OpenFolder_Click(null, null);
+        }
 
-		Dispose();
+        Dispose();
 	}
 
 	private void Background_Exit(object sender, RoutedEventArgs e)
@@ -945,22 +964,28 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 		{
 			var yesno = await GlobalConsts.ShowYesNoDialog($"{FindResource("StillConverting")}", $"{FindResource("StillConverting")} {ffmpegList.Count} {FindResource("files")} {FindResource("AreYouSureExit")}");
 			if (yesno == MessageDialogResult.Negative)
-				return false;
-		}
+            {
+                return false;
+            }
+        }
 		ffmpegList?.ForEach(x => { try { x.Kill(); } catch { } });
 		StillDownloading = false;
 		if (!silent)
-			GlobalConsts.LoadPage(GlobalConsts.MainPage.Load());
+        {
+            GlobalConsts.LoadPage(GlobalConsts.MainPage.Load());
+        }
 
-		return true;
+        return true;
 	}
 
 	public Task<bool> Cancel()
 	{
 		if (!disposedValue)
-			return ExitAsync();
+        {
+            return ExitAsync();
+        }
 
-		return Task.FromResult(true);
+        return Task.FromResult(true);
 	}
 
 	private bool disposedValue = false;

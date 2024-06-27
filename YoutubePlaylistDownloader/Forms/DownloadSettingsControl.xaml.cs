@@ -109,9 +109,11 @@ public partial class DownloadSettingsControl : UserControl
 		if (!double.TryParse(FilterByLengthTextBox.Text, out var value))
 		{
 			if (!string.IsNullOrWhiteSpace(FilterByLengthTextBox.Text))
-				FilterByLengthTextBox.Background = GlobalConsts.ErrorBrush;
+            {
+                FilterByLengthTextBox.Background = GlobalConsts.ErrorBrush;
+            }
 
-			if (GlobalConsts.settings.SaveDownloadOptions)
+            if (GlobalConsts.settings.SaveDownloadOptions)
 			{
 				GlobalConsts.DownloadSettings.FilterByLengthValue = 4;
 				GlobalConsts.DownloadSettings.FilterVideosByLength = false;
@@ -188,9 +190,11 @@ public partial class DownloadSettingsControl : UserControl
 		if (!int.TryParse(PlaylistEndIndexTextBox.Text, out var endIndex))
 		{
 			if (!string.IsNullOrWhiteSpace(PlaylistEndIndexTextBox.Text))
-				PlaylistEndIndexTextBox.Background = GlobalConsts.ErrorBrush;
+            {
+                PlaylistEndIndexTextBox.Background = GlobalConsts.ErrorBrush;
+            }
 
-			if (GlobalConsts.settings.SaveDownloadOptions)
+            if (GlobalConsts.settings.SaveDownloadOptions)
 			{
 				GlobalConsts.DownloadSettings.SubsetStartIndex = 0;
 				GlobalConsts.SaveDownloadSettings();
@@ -290,9 +294,11 @@ public partial class DownloadSettingsControl : UserControl
 			GlobalConsts.DownloadSettings.CaptionsLanguage = Languages.FirstOrDefault(x => x.Value.Equals((string)CaptionsLanguagesComboBox.SelectedItem, StringComparison.OrdinalIgnoreCase)).Key;
 
 			if (CaptionsCheckBox.IsChecked.Value && GlobalConsts.DownloadSettings.CaptionsLanguage == default)
-				GlobalConsts.DownloadSettings.CaptionsLanguage = "en";
+            {
+                GlobalConsts.DownloadSettings.CaptionsLanguage = "en";
+            }
 
-			GlobalConsts.SaveDownloadSettings();
+            GlobalConsts.SaveDownloadSettings();
 		}
 	}
 
@@ -445,9 +451,10 @@ public partial class DownloadSettingsControl : UserControl
 			SaveDirectoryTextBox.Background = null;
 		}
 		else
-			SaveDirectoryTextBox.Background = GlobalConsts.ErrorBrush;
-
-	}
+        {
+            SaveDirectoryTextBox.Background = GlobalConsts.ErrorBrush;
+        }
+    }
 
 	private void Tile_Click(object sender, RoutedEventArgs e)
 	{

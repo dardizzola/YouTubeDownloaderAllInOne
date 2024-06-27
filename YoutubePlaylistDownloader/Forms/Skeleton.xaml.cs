@@ -18,8 +18,10 @@ public partial class Skeleton : MetroWindow
 		GlobalConsts.LoadPage(new MainPage());
 
 		if (GlobalConsts.settings.CheckForProgramUpdates)
-			CheckForUpdates().ConfigureAwait(false);
-	}
+        {
+            CheckForUpdates().ConfigureAwait(false);
+        }
+    }
 
 	private async Task CheckForUpdates()
 	{
@@ -45,9 +47,10 @@ public partial class Skeleton : MetroWindow
 				var update = await this.ShowMessageAsync($"{FindResource("NewVersionAvailable")}", $"{FindResource("DoYouWantToUpdate")}\n{changelog}",
 						MessageDialogStyle.AffirmativeAndNegativeAndSingleAuxiliary, dialogSettings);
 				if (update == MessageDialogResult.Affirmative)
-					GlobalConsts.LoadPage(new DownloadUpdate(latestVersion, changelog));
-
-				else if (update == MessageDialogResult.FirstAuxiliary)
+                {
+                    GlobalConsts.LoadPage(new DownloadUpdate(latestVersion, changelog));
+                }
+                else if (update == MessageDialogResult.FirstAuxiliary)
 				{
 					GlobalConsts.UpdateControl = new DownloadUpdate(latestVersion, changelog, true).UpdateLaterStillDownloading();
 				}
@@ -182,8 +185,10 @@ public partial class Skeleton : MetroWindow
 	{
 		await this.ShowMessageAsync(title, message);
 		if (DefaultFlyout.IsOpen)
-			DefaultFlyout.IsOpen = false;
-	}
+        {
+            DefaultFlyout.IsOpen = false;
+        }
+    }
 
 	public async Task<MessageDialogResult> ShowYesNoDialog(string title, string message)
 	{
