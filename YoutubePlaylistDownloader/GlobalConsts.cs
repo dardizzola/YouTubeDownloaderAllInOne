@@ -2,7 +2,6 @@
 
 static class GlobalConsts
 {
-	#region Const Variables
 	public static Skeleton Current;
 	public static MainPage MainPage;
 	public static System.Windows.Media.Brush ErrorBrush;
@@ -48,7 +47,6 @@ static class GlobalConsts
 		}
 	}
 
-	#endregion
 
 	static GlobalConsts()
 	{
@@ -84,9 +82,7 @@ static class GlobalConsts
 	}
 
 	//The const methods are used mainly for saving/loading consts, and handling page\menu management.
-	#region Const Methods
 
-	#region Buttons
 	public static void HideHelpButton()
 	{
 		Current.HelpButton.Visibility = Visibility.Collapsed;
@@ -119,7 +115,6 @@ static class GlobalConsts
 	{
 		Current.HomeButton.Visibility = Visibility.Visible;
 	}
-	#endregion
 
 	public static async Task ShowMessage(string title, string message)
 	{
@@ -533,6 +528,5 @@ static class GlobalConsts
 				item?.Dispose();
 			}
 	}
-	#endregion
 
 }

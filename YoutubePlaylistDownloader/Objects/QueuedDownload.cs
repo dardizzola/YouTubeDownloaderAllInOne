@@ -218,7 +218,6 @@ class QueuedDownload(IDownload downloadItem) : IDisposable
 		built = true;
 	}
 
-	#region IDisposable Support
 	private bool disposedValue = false;
 	protected virtual void Dispose(bool disposing)
 	{
@@ -238,5 +237,4 @@ class QueuedDownload(IDownload downloadItem) : IDisposable
 	{
 		Dispose(true);
 	}
-	#endregion
 }

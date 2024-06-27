@@ -963,7 +963,6 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 		return Task.FromResult(true);
 	}
 
-	#region IDisposable Support
 	private bool disposedValue = false;
 	protected virtual void Dispose(bool disposing)
 	{
@@ -1006,5 +1005,4 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 	{
 		Dispose(true);
 	}
-	#endregion
 }
