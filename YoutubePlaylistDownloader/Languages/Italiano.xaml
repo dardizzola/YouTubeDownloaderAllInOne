@@ -30,7 +30,7 @@
     <s:String x:Key="Canceling">Annullo i download. Attendere...</s:String>
     <s:String x:Key="Videos">Video</s:String>
     <s:String x:Key="Download">Download</s:String>
-    <s:String x:Key="ConvertToMp3">Converti i video in </s:String>
+    <s:String x:Key="ConvertToMp3">Converti in </s:String>
     <s:String x:Key="SaveVideoFormat">Salva video come </s:String>
     <s:String x:Key="StillConverting">Dammi tempo, sto ancora convertendo</s:String>
     <s:String x:Key="files">File</s:String>
@@ -141,7 +141,7 @@ su quattro; in Gestione Attività si vedrà che il programma usa poco più del 7
     <s:String x:Key="Retry">Riprova</s:String>
     <s:String x:Key="Of">di</s:String>
     <s:String x:Key="FileNamePattern">File name pattern: </s:String>
-    <s:String x:Key="ResetToDefault">Imposta valori di default</s:String>
+    <s:String x:Key="ResetToDefault">Valori di default</s:String>
     <s:String x:Key="FileNamePatternTitle">File Name Pattern</s:String>
     <s:String x:Key="SkipExisting">Salta i files che già esistono</s:String>
     <s:String x:Key="FileNamePattenExplanation">Il pattern del nome file consente di assegnare nomi dinamici ai file scaricati in base a questi parametri:
@@ -156,8 +156,7 @@ $genre: Genere
 
 Quindi, ad esempio, se il modello del nome del mio file è "canzone: [$playlist] $artist - $songtitle ($channel) $index" il nome del file risultante sarà "canzone: [Esempio] Infected Mushroom - Spitfire (Monstercat) 1"
 Puoi aggiungere qualsiasi altro testo tra i parametri, solo i parametri validi verranno sostituiti.
-Tieni presente che non tutti i parametri sono sempre disponibili (ad esempio scaricando un singolo video la variabile $playlist non sarebbe disponibile), e nel caso mancassero verranno rimossi dal nome del file
-
+Tieni presente che non tutti i parametri sono sempre disponibili (ad esempio scaricando un singolo video la variabile $playlisttitle non sarebbe disponibile), e nel caso mancassero verranno rimossi dal nome del file
 </s:String>
     <s:String x:Key="CopyToClipboard">Copy to clipboard</s:String>
     <s:String x:Key="SaveToTextFile">Save to text file</s:String>

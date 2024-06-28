@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader;
+﻿namespace LaMuccaRossaVideoDownloader;
 
 static class GlobalConsts
 {
@@ -32,7 +32,7 @@ static class GlobalConsts
 	public const string APPLICATION_GITHUB_USERNAME = "dardizzola";
     public const string APPLICATION_REPOSITORY_NAME = "YouTubeDownloaderAllInOne";
     public const string APPLICATION_REPOSITORY_BRANCH = "main";
-	public const string APPLICATION_REPOSITORY_FOLDER = "YoutubePlaylistDownloader";
+	public const string APPLICATION_REPOSITORY_FOLDER = "LaMuccaRossaVideoDownloader";
 
     public static string OppositeTheme => settings.Theme == "Light" ? "Dark" : "Light";
 	public static YoutubeClient YoutubeClient => new();

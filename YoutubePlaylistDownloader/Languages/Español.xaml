@@ -30,7 +30,7 @@
     <s:String x:Key="Canceling">Cancelando las descargas, por favor espere..</s:String>
     <s:String x:Key="Videos">Videos</s:String>
     <s:String x:Key="Download">Descargar</s:String>
-    <s:String x:Key="ConvertToMp3">Convertir videos a </s:String>
+    <s:String x:Key="ConvertToMp3">Convertir a </s:String>
     <s:String x:Key="SaveVideoFormat">Save videos as </s:String>
     <s:String x:Key="StillConverting">Todavía se estan convirtiendo</s:String>
     <s:String x:Key="files">videos</s:String>
@@ -140,19 +140,20 @@ Se recomienda utilizar 1 núcleo menos de los que tienes disponibles. Si tu comp
     <s:String x:Key="ResetToDefault">Reset to default</s:String>
     <s:String x:Key="FileNamePatternTitle">File Name Pattern</s:String>
     <s:String x:Key="SkipExisting">Skip files that already exist</s:String>
-    <s:String x:Key="FileNamePattenExplanation">The file name pattern allows you to give the downloaded files dynamic names based on these parameters:
-$title: The title of the video
-$index: The index of the video in the playlist
-$artist: The name of the artist of the song (if applicable)
-$songtitle: The title of the song
-$channel: The name of the channel that uploaded the video
-$videoid: The unique ID of the video (taken from the video url)
-$playlist: The title of the plyalist
+    <s:String x:Key="FileNamePattenExplanation">El patrón de nombre de archivo le permite dar nombres dinámicos a los archivos descargados según estos parámetros:
+$title: El título del vídeo.
+$index: el índice del vídeo en la lista de reproducción.
+$artist: El nombre del artista de la canción (si corresponde)
+$songtitle: El título de la canción.
+channel: El nombre del canal que subió el vídeo
+$videoid: el ID único del vídeo (tomado de la URL del vídeo)
+$playlist: El título de la lista de reproducción.
 $genre: Genero
-        
-So for example, if my file name pattern is "song: [$playlist] $artist - $songtitle ($channel) $index" the result file name would be "song: [Example] Infected Mushroom - Spitfire (Monstercat) 1"
-You can add any other text between the parameters, only the parameters will be replaced.
-Please note that not all the parameters are always available (for example, when downloading a single video the $playlisttitle variable would not be available), and in case they are missing they will be removed from the file name</s:String>
+
+Entonces, por ejemplo, si mi patrón de nombre de archivo es "canción: [$playlist] $artist - $songtitle ($channel) $index", el nombre del archivo resultante sería "canción: [Ejemplo] Hongo infectado - Spitfire (Monstercat) 1"
+Puede agregar cualquier otro texto entre los parámetros, solo se reemplazarán los parámetros.
+Tenga en cuenta que no todos los parámetros están siempre disponibles (por ejemplo, al descargar un solo vídeo, la variable $playlisttitle no estaría disponible) y, en caso de que falten, se eliminarán del nombre del archivo.
+</s:String>
     <s:String x:Key="CopyToClipboard">Copy to clipboard</s:String>
     <s:String x:Key="SaveToTextFile">Save to text file</s:String>
 </ResourceDictionary> 

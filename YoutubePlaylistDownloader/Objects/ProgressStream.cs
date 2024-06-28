@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader.Objects;
+﻿namespace LaMuccaRossaVideoDownloader.Objects;
 
 /// <summary>
 /// Wraps another stream and provides reporting for when bytes are read or written to the stream.

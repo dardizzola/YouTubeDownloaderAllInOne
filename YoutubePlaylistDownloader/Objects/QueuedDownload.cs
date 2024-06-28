@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader.Objects;
+﻿namespace LaMuccaRossaVideoDownloader.Objects;
 
 class QueuedDownload(IDownload downloadItem) : IDisposable
 {

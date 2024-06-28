@@ -29,7 +29,7 @@
     <s:String x:Key="Canceling">Cancelling your downloads, please wait...</s:String>
     <s:String x:Key="Videos">Videos</s:String>
     <s:String x:Key="Download">Download</s:String>
-    <s:String x:Key="ConvertToMp3">Convert videos to</s:String>
+    <s:String x:Key="ConvertToMp3">Convert to</s:String>
     <s:String x:Key="SaveVideoFormat">Save videos as </s:String>
     <s:String x:Key="StillConverting">Still converting</s:String>
     <s:String x:Key="files">files</s:String>

@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader.Objects;
+﻿namespace LaMuccaRossaVideoDownloader.Objects;
 
 class FixedQueue<T>(int size) : Queue<T>()
 {

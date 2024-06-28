@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader.Objects;
+﻿namespace LaMuccaRossaVideoDownloader.Objects;
 
 [JsonObject]
 public class Settings

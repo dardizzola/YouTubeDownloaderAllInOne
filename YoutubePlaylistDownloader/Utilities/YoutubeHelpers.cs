@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader.Utilities;
+﻿namespace LaMuccaRossaVideoDownloader.Utilities;
 
 public static partial class YoutubeHelpers
 {

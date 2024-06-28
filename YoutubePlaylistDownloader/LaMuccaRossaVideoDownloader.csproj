@@ -42,10 +42,15 @@
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
-    <StartupObject>YoutubePlaylistDownloader.App</StartupObject>
+    <StartupObject>LaMuccaRossaVideoDownloader.App</StartupObject>
+    <ImplicitUsings>disable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Icons and Images\Logo La Mucca Rossa 1096x591.png" />
+    <None Remove="Logo La Mucca Rossa 1096x591.png" />
   </ItemGroup>
   <ItemGroup>
     <Page Remove="Languages\Deutsch.xaml" />
@@ -59,6 +64,10 @@
     <Page Remove="Languages\中文.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Icons and Images\Logo La Mucca Rossa 1096x591.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Resource Include="Logo La Mucca Rossa 1096x591.png" />
     <Resource Include="Resources\Entypo.ttf" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +102,9 @@
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.6" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="App.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">

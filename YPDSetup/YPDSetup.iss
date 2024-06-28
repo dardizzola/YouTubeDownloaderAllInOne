@@ -9,19 +9,23 @@ AppId={{444538EE-4F35-4245-AEAE-6C149BB852B8}
 AppName=La Mucca Rossa Video Downloader
 AppVersion=1.9.24
 AppVerName=La Mucca Rossa Video Downloader 1.9.24
-AppPublisher=dardizzola
-AppPublisherURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
-AppSupportURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
-AppUpdatesURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
+AppPublisher=La Mucca Rossa
+AppPublisherURL=https://muccarossa.com/
+VersionInfoCompany=La Mucca Rossa
+AppCopyright=Copyright (C) (Forever and Ever) - La Mucca Rossa
+Password=PietroTest
+;AppPublisherURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
+;AppSupportURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
+;AppUpdatesURL=https://github.com/dardizzola/YouTubeDownloaderAllInOne
 DefaultDirName={commonpf}\La Mucca Rossa Video Downloader
 DefaultGroupName=La Mucca Rossa Video Downloader
 AllowNoIcons=yes
 OutputDir=..\Installer Output\1.9.24\
-OutputBaseFilename=LaMuccaRossaVideoDownloader
+OutputBaseFilename=Setup.LaMuccaRossaVideoDownloader
 SetupIconFile=..\YoutubePlaylistDownloader\finalIcon.ico
 Compression=lzma
 SolidCompression=yes
-UninstallDisplayIcon=..\LaMuccaRossaVideoDownloader\finalIcon.ico
+UninstallDisplayIcon=..\YoutubePlaylistDownloader\finalIcon.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -31,15 +35,15 @@ Name: "italian"; MessagesFile: "compiler:Languages\Italian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";
 
 [Files]
-Source: "..\YoutubePlaylistDownloader\bin\Release\net8.0-windows\*"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\YoutubePlaylistDownloader\bin\Debug\net8.0-windows\*"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\FFmpeg\ffmpeg.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files        
 
 [Icons]
-Name: "{group}\La Mucca Rossa Video Downloader"; Filename: "{app}\La Mucca Rossa Video Downloader.exe"
-Name: "{commondesktop}\La Mucca Rossa Video Downloader"; Filename: "{app}\La Mucca Rossa Video Downloader.exe"; Tasks: desktopicon
+Name: "{group}\La Mucca Rossa Video Downloader"; Filename: "{app}\LaMuccaRossaVideoDownloader.exe"
+Name: "{commondesktop}\La Mucca Rossa Video Downloader"; Filename: "{app}\LaMuccaRossaVideoDownloader.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\La Mucca Rossa Video Downloader.exe"; Description: "{cm:LaunchProgram,La Mucca Rossa Video Downloader}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\LaMuccaRossaVideoDownloader.exe"; Description: "{cm:LaunchProgram,La Mucca Rossa Video Downloader}"; Flags: nowait postinstall skipifsilent
 

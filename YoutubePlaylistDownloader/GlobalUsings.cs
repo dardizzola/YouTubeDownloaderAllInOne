@@ -42,8 +42,8 @@ global using YoutubeExplode.Playlists;
 global using YoutubeExplode.Videos;
 global using YoutubeExplode.Videos.Streams;
 
-global using YoutubePlaylistDownloader.Objects;
-global using YoutubePlaylistDownloader.Utilities;
+global using LaMuccaRossaVideoDownloader.Objects;
+global using LaMuccaRossaVideoDownloader.Utilities;
 
 global using Application = System.Windows.Application;
 global using Binding = System.Windows.Data.Binding;
