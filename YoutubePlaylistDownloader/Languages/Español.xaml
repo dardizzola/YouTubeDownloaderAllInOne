@@ -3,7 +3,7 @@
                     xmlns:s="clr-namespace:System;assembly=mscorlib"
                     xml:space="preserve">
     
-    <s:String x:Key="Title">YouTube Playlist Downloader</s:String>
+    <s:String x:Key="Title">La Mucca Rossa Video Downloader</s:String>
     <FlowDirection x:Key="FlowDirection">LeftToRight</FlowDirection>
     <s:String x:Key="InsertYoutubePlaylistLinkHere">Escribe la URL del playlist</s:String>
     <s:String x:Key="Exit">Salir</s:String>
@@ -43,22 +43,18 @@
     <s:String x:Key="Prefer">Prefiero videos con una resolución de </s:String>
     <s:String x:Key="AreYouSureExit">¿Estás seguro de que quieres salir?</s:String>
     <s:String x:Key="TotalVideos">Total de videos: </s:String>
-    <s:String x:Key="AboutTheProgram">Este programa fue desarrollado por dardizzola y su uso es completamente gratuito sin ninguna limitación.
-Sin embargo, no soy responsable por cualquier problema legal que este programa pudiera causarte, hasta donde sé, YouTube no permite descargar videos desde su sitio web.
-
-El código completo de este programa lo puedes encontrar en https://github.com/dardizzola/YoutubePlaylistDownloader .
-
-El instalador fue hecho usando Inno Setup (http://www.jrsoftware.org/isinfo.php)
+    <s:String x:Key="AboutTheProgram">Este programa fue desarrollado por La Mucca Rossa y es completamente gratuito y sin limitaciones.
+La Mucca Rossa no es responsable de los problemas legales que cause este programa.
 
 
-YouTube Playlist Downloader v</s:String>
+La Mucca Rossa Video Downloader versión </s:String>
     <s:String x:Key="BitRate">y establecer el bit rate a</s:String>
     <s:String x:Key="NewVersionAvailable">Hay una nueva versión disponible!</s:String>
     <s:String x:Key="DoYouWantToUpdate">Hay una nueva versión disponible!, ¿Deseas actualizar?
 Esto es lo nuevo que hay: </s:String>
     <s:String x:Key="DownloadingUpdateSetup">Actualmente descargando: Archivos para la actualización</s:String>
     <s:String x:Key="UpdateCancelled">La actualización ha sido cancelada.</s:String>
-    <s:String x:Key="ErrorWhileUpdating">Ocurrió un error durante la descarga, asegurate de estar conectado a internet. Si tienes conexión a internet intenta la descarga mas tarde o visita https://github.com/dardizzola/YoutubePlaylistDownloader/issues para comprobar si existe algún problema con el servidor de descargas.</s:String>
+    <s:String x:Key="ErrorWhileUpdating">Ocurrió un error durante la descarga, asegurate de estar conectado a internet. Si tienes conexión a internet intenta la descarga mas tarde.</s:String>
     <s:String x:Key="UpdateComplete">Descarga completa.</s:String>
     <s:String x:Key="UpdateWhenIExit">Actualizar al salir</s:String>
     <s:String x:Key="UpdateAndExit">Cerrar y actualizar ahora</s:String>
@@ -100,11 +96,7 @@ Para acceder a los ajustes de una suscripción, selecciona 'Suscripciones' en el
 Te recordamos que si la aplicación no se encuentra en ejecución, no se descargarán videos nuevos.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Contacto</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">Hay varias maneras de contactarme (dardizzola):
-
-La primera es en Reddit, solo enviame un mensaje en Reddit y respondere en cuanto pueda, este es mi perfil https://www.reddit.com/user/dardizzola/
-
-La tercera manera de contactarme es a través de Github, simplemente abre un nuevo issue e intentare responder lo mas rápido posible, aqui esta el link: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
+    <s:String x:Key="ContactTheDeveloperHelp">La Mucca Rossa</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Buscar actualizaciones automáticamente cuando inicia la aplicación</s:String>
     <s:String x:Key="WhatsNew">¿Qué hay de nuevo?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Actualizar suscripciones cada</s:String>
@@ -112,24 +104,12 @@ La tercera manera de contactarme es a través de Github, simplemente abre un nue
     <s:String x:Key="SaveDownloadOptions">Guardar mi configuración de descargas</s:String>
     <s:String x:Key="DownloadSpeed">Velocidad de descarga: </s:String>
     <s:String x:Key="Changelog">Changelog</s:String>
-    <s:String x:Key="DongChunrui">Dong Cunrui (董存瑞)</s:String>
-    <s:String x:Key="CreditsAndContributors">Muchas gracias a estas personas por la traducción de este software: 
-Dong Cunrui (董存瑞)
-RichyZ99
-Jhonatan Lima (Heremitus)
-İskender ALPSAKARYA, Alp Eren GENÇOĞLU (Türkçe)
-Luis Duenas (Español)
-Stephan Komov (Deutsch)
-Elta (Français)
-Ahmed Waaer (Arabic)
-Bartlomiej Szmolke (Polski)  
-Timofey Dedov (Русский)
-</s:String>
+    <s:String x:Key="CreditsAndContributors">Implementación, cambio de marca y personalización por Davide Ardizzola</s:String>
     <s:String x:Key="Search">Buscar</s:String>
     <s:String x:Key="Queue">Cola</s:String>
     <s:String x:Key="Downloading">Descargando..</s:String>
     <s:String x:Key="Converting">Convirtiendo..</s:String>
-    <s:String x:Key="DownloadInBackground">Agregar a la cola</s:String>
+    <s:String x:Key="DownloadInBackground">Ponlo en cola</s:String>
     <s:String x:Key="Audio">Audio</s:String>
     <s:String x:Key="Video">Video</s:String>
     <s:String x:Key="DownloadCaptions">Descargar subtítulos</s:String>
@@ -168,7 +148,8 @@ $songtitle: The title of the song
 $channel: The name of the channel that uploaded the video
 $videoid: The unique ID of the video (taken from the video url)
 $playlist: The title of the plyalist
-
+$genre: Genero
+        
 So for example, if my file name pattern is "song: [$playlist] $artist - $songtitle ($channel) $index" the result file name would be "song: [Example] Infected Mushroom - Spitfire (Monstercat) 1"
 You can add any other text between the parameters, only the parameters will be replaced.
 Please note that not all the parameters are always available (for example, when downloading a single video the $playlisttitle variable would not be available), and in case they are missing they will be removed from the file name</s:String>

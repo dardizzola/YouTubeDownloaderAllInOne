@@ -3,8 +3,8 @@
                     xmlns:s="clr-namespace:System;assembly=mscorlib"
                     xml:space="preserve">
     
-    <s:String x:Key="Title">YouTube Playlist Downloader</s:String>
-    <s:String x:Key="Skipping">Il file esiste già, si salta...</s:String>
+    <s:String x:Key="Title">La Mucca Rossa Video Downloader</s:String>
+    <s:String x:Key="Skipping">Il file esiste già, lo salto...</s:String>
     <FlowDirection x:Key="FlowDirection">LeftToRight</FlowDirection>
     <s:String x:Key="InsertYoutubePlaylistLinkHere">Incolla qui un link da YouTube</s:String>
     <s:String x:Key="Exit">Esci</s:String>
@@ -46,7 +46,7 @@
     <s:String x:Key="AboutTheProgram">Questo programma è stato sviluppato da La Mucca Rossa ed è completamente gratuito senza limitazioni.
 La Mucca Rossa non è responsabile per gli eventuali problemi legali che questo programma causa.
         
-YouTube Playlist Downloader v</s:String>
+La Mucca Rossa Video Downloader versione </s:String>
     <s:String x:Key="BitRate">e imposta il bitrate a</s:String>
     <s:String x:Key="NewVersionAvailable">Nuova versione disponibile</s:String>
     <s:String x:Key="DoYouWantToUpdate">È disponibile una nuova versione: aggiornare?
@@ -54,7 +54,7 @@ Ecco le novità: </s:String>
     <s:String x:Key="DownloadingUpdateSetup">Sto scaricando: aggiornamento alle configurazioni</s:String>
     <s:String x:Key="UpdateCancelled">L'aggiornamento è stato annullato.</s:String>
     <s:String x:Key="ErrorWhileUpdating">Errore durante l'aggiornamento. Controlla la tua connessione ad Internet.
-Se sei connesso, prova piú tardi o visita https://github.com/dardizzola/YoutubePlaylistDownloader/issues per eventuali problemi ai server.</s:String>
+Se sei connesso, prova piú tardi.</s:String>
     <s:String x:Key="UpdateComplete">Download completato.</s:String>
     <s:String x:Key="UpdateWhenIExit">Aggiorna all'uscita</s:String>
     <s:String x:Key="UpdateAndExit">Chiudi ed aggiorna adesso</s:String>
@@ -97,6 +97,7 @@ Attenzione: se il programma è spento, non scaricherà alcun video.
     <s:String x:Key="ContactTheDeveloper">Contatti</s:String>
     <s:String x:Key="ContactTheDeveloperHelp">La Mucca Rossa
         
+        
 </s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Cerca automaticamente aggiornamenti all'avvio del programma</s:String>
     <s:String x:Key="WhatsNew">Novità</s:String>
@@ -105,12 +106,12 @@ Attenzione: se il programma è spento, non scaricherà alcun video.
     <s:String x:Key="SaveDownloadOptions">Salva le preferenze sui download</s:String>
     <s:String x:Key="DownloadSpeed">Velocità download: </s:String>
     <s:String x:Key="Changelog">Cambiamenti</s:String>
-    <s:String x:Key="CreditsAndContributors">Customizzazione a cura di Davide Ardizzola</s:String>
+    <s:String x:Key="CreditsAndContributors">Implementazione, Rebranding e personalizzazione a cura di Davide Ardizzola</s:String>
     <s:String x:Key="Search">Cerca</s:String>
     <s:String x:Key="Queue">Coda</s:String>
     <s:String x:Key="Downloading">Sto scaricando...</s:String>
     <s:String x:Key="Converting">Conversione in corso...</s:String>
-    <s:String x:Key="DownloadInBackground">Aggiungi alla coda</s:String>
+    <s:String x:Key="DownloadInBackground">Metti in coda</s:String>
     <s:String x:Key="Audio">Audio</s:String>
     <s:String x:Key="Video">Video</s:String>
     <s:String x:Key="DownloadCaptions">Scarica anche i sottotitoli</s:String>
@@ -143,7 +144,7 @@ su quattro; in Gestione Attività si vedrà che il programma usa poco più del 7
     <s:String x:Key="ResetToDefault">Imposta valori di default</s:String>
     <s:String x:Key="FileNamePatternTitle">File Name Pattern</s:String>
     <s:String x:Key="SkipExisting">Salta i files che già esistono</s:String>
-    <s:String x:Key="FileNamePattenExplanation">Il modello del nome file consente di assegnare nomi dinamici ai file scaricati in base a questi parametri:
+    <s:String x:Key="FileNamePattenExplanation">Il pattern del nome file consente di assegnare nomi dinamici ai file scaricati in base a questi parametri:
 $title: il titolo del video
 $index: l'indice del video nella playlist
 $artist: il nome dell'artista della canzone (se applicabile)

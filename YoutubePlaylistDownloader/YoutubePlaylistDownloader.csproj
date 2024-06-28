@@ -48,6 +48,17 @@
     <Compile Remove="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Page Remove="Languages\Deutsch.xaml" />
+    <Page Remove="Languages\Français.xaml" />
+    <Page Remove="Languages\Polski.xaml" />
+    <Page Remove="Languages\Português %28BR%29.xaml" />
+    <Page Remove="Languages\Türkçe.xaml" />
+    <Page Remove="Languages\Русский.xaml" />
+    <Page Remove="Languages\עברית.xaml" />
+    <Page Remove="Languages\العربية.xaml" />
+    <Page Remove="Languages\中文.xaml" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Resources\Entypo.ttf" />
   </ItemGroup>
   <ItemGroup>

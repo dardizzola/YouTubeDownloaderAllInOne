@@ -18,10 +18,10 @@ DefaultGroupName=La Mucca Rossa Video Downloader
 AllowNoIcons=yes
 OutputDir=..\Installer Output\1.9.24\
 OutputBaseFilename=LaMuccaRossaVideoDownloader
-SetupIconFile=..\YoutubePlaylistDownloader\La Mucca Rossa - 128x128px (7).ico
+SetupIconFile=..\YoutubePlaylistDownloader\finalIcon.ico
 Compression=lzma
 SolidCompression=yes
-UninstallDisplayIcon=..\LaMuccaRossaVideoDownloader\La Mucca Rossa - 128x128px (7).ico
+UninstallDisplayIcon=..\LaMuccaRossaVideoDownloader\finalIcon.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -37,9 +37,9 @@ Source: "..\FFmpeg\ffmpeg.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files        
 
 [Icons]
-Name: "{group}\La Mucca Rossa Video Downloader"; Filename: "{app}\YoutubePlaylistDownloader.exe"
-Name: "{commondesktop}\La Mucca Rossa Video Downloader"; Filename: "{app}\YoutubePlaylistDownloader.exe"; Tasks: desktopicon
+Name: "{group}\La Mucca Rossa Video Downloader"; Filename: "{app}\La Mucca Rossa Video Downloader.exe"
+Name: "{commondesktop}\La Mucca Rossa Video Downloader"; Filename: "{app}\La Mucca Rossa Video Downloader.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\YoutubePlaylistDownloader.exe"; Description: "{cm:LaunchProgram,YouTube Playlist Downloader}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\La Mucca Rossa Video Downloader.exe"; Description: "{cm:LaunchProgram,La Mucca Rossa Video Downloader}"; Flags: nowait postinstall skipifsilent
 
