@@ -43,10 +43,10 @@
     <s:String x:Key="Prefer">Bevorzugen von Videos mit einer Auflösung von: </s:String>
     <s:String x:Key="AreYouSureExit">Möchten Sie wirklich verlassen?</s:String>
     <s:String x:Key="TotalVideos">Videos gesamt: </s:String>
-    <s:String x:Key="AboutTheProgram">Dieses Programm wurde von shaked6540 entwickelt und ist komplett kostenfrei ohne Beschränkungen nutzbar.
+    <s:String x:Key="AboutTheProgram">Dieses Programm wurde von dardizzola entwickelt und ist komplett kostenfrei ohne Beschränkungen nutzbar.
 Ich bin allerdings nicht für jegliche rechtlichen Probleme, die dieses Programm möglicherweise verursacht, verantwortlich. 
 Soweit ich weiß, erlaubt YouTube das Herunterladen von Videos von ihrer Website nicht. 
-Der komplette Source-Code kann unter https://github.com/shaked6540/YoutubePlaylistDownloader gefunden werden.
+Der komplette Source-Code kann unter https://github.com/dardizzola/YoutubePlaylistDownloader gefunden werden.
         
 Das Installationsprogramm wurde mit Inno Setup (http://www.jrsoftware.org/isinfo.php) erstellt.
     
@@ -58,7 +58,7 @@ Das ist neu: </s:String>
     <s:String x:Key="DownloadingUpdateSetup">Derzeit herunterladend: Aktualisierung</s:String>
     <s:String x:Key="UpdateCancelled">Aktualisierung wurde abgebrochen.</s:String>
     <s:String x:Key="ErrorWhileUpdating">Ein Fehler ist beim Herunterladen der Aktualisierung aufgetreten. Bitte vergewissern Sie sich, dass Sie mit dem Internet verbunden sind.
-Falls Sie mit dem Internet verbunden sind, bitte versuchen Sie das Herunterladen der Aktualisierung später noch einmal oder besuchen Sie die folgende Website, um zu sehen, ob es Probleme mit dem Download-Server gibt: serverhttps://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+Falls Sie mit dem Internet verbunden sind, bitte versuchen Sie das Herunterladen der Aktualisierung später noch einmal oder besuchen Sie die folgende Website, um zu sehen, ob es Probleme mit dem Download-Server gibt: serverhttps://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="UpdateComplete">Herunterladen abgeschlossen.</s:String>
     <s:String x:Key="UpdateWhenIExit">nach Beenden aktualisieren</s:String>
     <s:String x:Key="UpdateAndExit">schließen und jetzt aktualisieren</s:String>
@@ -100,10 +100,10 @@ Alle Abonnements sind anpassbar und haben Ihre eigenen Einstellungen. Um auf die
 Neue Videos können nur heruntergeladen werden, während das Programm ausgeführt wird.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Kontakt</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">Es gibt verschiedene Wege, mich (shaked6540) zu kontaktieren: 
-- Reddit: Schicken Sie mir einfach eine Nachricht und ich antworte, so schnell ich kann: https://www.reddit.com/u/shaked6540/
+    <s:String x:Key="ContactTheDeveloperHelp">Es gibt verschiedene Wege, mich (dardizzola) zu kontaktieren: 
+- Reddit: Schicken Sie mir einfach eine Nachricht und ich antworte, so schnell ich kann: https://www.reddit.com/u/dardizzola/
 
-- GitHub: Eröffnen Sie einfach ein sogenanntes "Issue" und ich antworte, so schnell ich kann: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+- GitHub: Eröffnen Sie einfach ein sogenanntes "Issue" und ich antworte, so schnell ich kann: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Automatisch nach Aktualisierungen suchen, wenn ich das Programm starte</s:String>
     <s:String x:Key="WhatsNew">Was ist neu?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Aktualisieren von Abonnements alle</s:String>

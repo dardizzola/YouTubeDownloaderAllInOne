@@ -54,7 +54,7 @@ Ecco le novità: </s:String>
     <s:String x:Key="DownloadingUpdateSetup">Sto scaricando: aggiornamento alle configurazioni</s:String>
     <s:String x:Key="UpdateCancelled">L'aggiornamento è stato annullato.</s:String>
     <s:String x:Key="ErrorWhileUpdating">Errore durante l'aggiornamento. Controlla la tua connessione ad Internet.
-Se sei connesso, prova piú tardi o visita https://github.com/shaked6540/YoutubePlaylistDownloader/issues per eventuali problemi ai server.</s:String>
+Se sei connesso, prova piú tardi o visita https://github.com/dardizzola/YoutubePlaylistDownloader/issues per eventuali problemi ai server.</s:String>
     <s:String x:Key="UpdateComplete">Download completato.</s:String>
     <s:String x:Key="UpdateWhenIExit">Aggiorna all'uscita</s:String>
     <s:String x:Key="UpdateAndExit">Chiudi ed aggiorna adesso</s:String>

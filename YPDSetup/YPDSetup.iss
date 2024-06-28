@@ -18,14 +18,14 @@ DefaultGroupName=La Mucca Rossa Video Downloader
 AllowNoIcons=yes
 OutputDir=..\Installer Output\1.9.24\
 OutputBaseFilename=LaMuccaRossaVideoDownloader
-SetupIconFile=..\YoutubePlaylistDownloader\finalIcon.ico
+SetupIconFile=..\YoutubePlaylistDownloader\La Mucca Rossa - 128x128px (7).ico
 Compression=lzma
 SolidCompression=yes
-UninstallDisplayIcon=..\LaMuccaRossaVideoDownloader\finalIcon.ico
+UninstallDisplayIcon=..\LaMuccaRossaVideoDownloader\La Mucca Rossa - 128x128px (7).ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
-Name: "hebrew"; MessagesFile: "compiler:Languages\Hebrew.isl"
+Name: "italian"; MessagesFile: "compiler:Languages\Italian.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";

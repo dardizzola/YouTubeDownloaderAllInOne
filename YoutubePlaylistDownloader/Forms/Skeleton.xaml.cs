@@ -29,12 +29,12 @@ public partial class Skeleton : MetroWindow
 		{
 			using var client = new HttpClient();
 			client.DefaultRequestHeaders.CacheControl = new CacheControlHeaderValue() { NoCache = true };
-			var response = await client.GetStringAsync("https://raw.githubusercontent.com/shaked6540/YoutubePlaylistDownloader/master/YoutubePlaylistDownloader/latestVersionWithRevision.txt");
+			var response = await client.GetStringAsync("https://raw.githubusercontent.com/dardizzola/YoutubePlaylistDownloader/master/YoutubePlaylistDownloader/latestVersionWithRevision.txt");
 			var latestVersion = Version.Parse(response);
 
 			if (latestVersion > GlobalConsts.VERSION)
 			{
-				var changelog = await client.GetStringAsync("https://raw.githubusercontent.com/shaked6540/YoutubePlaylistDownloader/master/YoutubePlaylistDownloader/changelog.txt");
+				var changelog = await client.GetStringAsync("https://raw.githubusercontent.com/dardizzola/YoutubePlaylistDownloader/master/YoutubePlaylistDownloader/changelog.txt");
 				var dialogSettings = new MetroDialogSettings()
 				{
 					AffirmativeButtonText = $"{FindResource("UpdateNow")}",

@@ -42,10 +42,10 @@
     <s:String x:Key="Prefer">Prefer videos with a resolution of</s:String>
     <s:String x:Key="AreYouSureExit">Are you sure you want to exit?</s:String>
     <s:String x:Key="TotalVideos">Total videos: </s:String>
-    <s:String x:Key="AboutTheProgram">This program was developed by shaked6540 and it is completely free to use without limitation.
+    <s:String x:Key="AboutTheProgram">This program was developed by dardizzola and it is completely free to use without limitation.
 However, I am not responsible for any legal trouble that this program will cause you, 
 as far as I know, YouTube does not permit downloading videos from their website. 
-The full source code for this program can be found at https://github.com/shaked6540/YoutubePlaylistDownloader
+The full source code for this program can be found at https://github.com/dardizzola/YoutubePlaylistDownloader
         
 The installer was made using Inno Setup (http://www.jrsoftware.org/isinfo.php)
     
@@ -58,7 +58,7 @@ Here's what's new:</s:String>
     <s:String x:Key="DownloadingUpdateSetup">Currently downloading: Update Setup</s:String>
     <s:String x:Key="UpdateCancelled">Update was cancelled.</s:String>
     <s:String x:Key="ErrorWhileUpdating">An error has occurred while downloading the update setup, make sure you're connected to the Internet.
-If you are connected to the Internet, try downloading a later time or visit https://github.com/shaked6540/YoutubePlaylistDownloader/issues to see if theres an issue with the download server.</s:String>
+If you are connected to the Internet, try downloading a later time or visit https://github.com/dardizzola/YoutubePlaylistDownloader/issues to see if theres an issue with the download server.</s:String>
     <s:String x:Key="UpdateComplete">Download complete.</s:String>
     <s:String x:Key="UpdateWhenIExit">Update when I exit</s:String>
     <s:String x:Key="UpdateAndExit">Close and update now</s:String>
@@ -100,11 +100,11 @@ All subscriptions are customizable and have their own settings, to access subscr
 Please note that if the program is not running, new videos will not be downloaded.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Contact</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">There are several ways to contact me (shaked6540): 
+    <s:String x:Key="ContactTheDeveloperHelp">There are several ways to contact me (dardizzola): 
 
-The first one is Reddit, simply send me a message on Reddit and I will respond as soon as I can, this is my profile link: https://www.reddit.com/user/shaked6540/
+The first one is Reddit, simply send me a message on Reddit and I will respond as soon as I can, this is my profile link: https://www.reddit.com/user/dardizzola/
 
-The second way to contact me is through GitHub, simply open a new issue and I will try to respond as soon as possible, here is a link: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+The second way to contact me is through GitHub, simply open a new issue and I will try to respond as soon as possible, here is a link: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Automatically check for updates when I start the program</s:String>
     <s:String x:Key="WhatsNew">What's new?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Update subscriptions every</s:String>

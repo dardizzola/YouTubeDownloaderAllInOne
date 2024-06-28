@@ -42,10 +42,10 @@
     <s:String x:Key="Prefer">Предпочтительное разрешение видео</s:String>
     <s:String x:Key="AreYouSureExit">Вы действительно хотите выйти?</s:String>
     <s:String x:Key="TotalVideos">Всего видео: </s:String>
-    <s:String x:Key="AboutTheProgram">Эта программа была разработана shaked6540, и она полностью бесплатна для использования без лимитов.
+    <s:String x:Key="AboutTheProgram">Эта программа была разработана dardizzola, и она полностью бесплатна для использования без лимитов.
 Однако я не несу ответственность за какие-либо легальные проблемы, которые данная программа может у вас вызвать,
 ведь, насколько я знаю, YouTube не разрешает загружать видео с их сайта.
-Полный исходный код этой программы может быть найден на https://github.com/shaked6540/YoutubePlaylistDownloader
+Полный исходный код этой программы может быть найден на https://github.com/dardizzola/YoutubePlaylistDownloader
         
 Установщик этой программы был создан с помощью Inno Setup (http://www.jrsoftware.org/isinfo.php)
     
@@ -58,7 +58,7 @@ YouTube Playlist Downloader v</s:String>
     <s:String x:Key="DownloadingUpdateSetup">Загружается: Установщик Обновления</s:String>
     <s:String x:Key="UpdateCancelled">Обновление было отменено.</s:String>
     <s:String x:Key="ErrorWhileUpdating">Возникла ошибка при загрузке установщика обновления. Убедитесь, что вы подключены к Интернету.
-Если вы подключены к Интернету, попробуйте повторить попытку позже или посетите https://github.com/shaked6540/YoutubePlaylistDownloader/issues , чтобы проверить, есть ли проблемы с сервером загрузки.</s:String>
+Если вы подключены к Интернету, попробуйте повторить попытку позже или посетите https://github.com/dardizzola/YoutubePlaylistDownloader/issues , чтобы проверить, есть ли проблемы с сервером загрузки.</s:String>
     <s:String x:Key="UpdateComplete">Загрузка завершена.</s:String>
     <s:String x:Key="UpdateWhenIExit">Обновить при выходе</s:String>
     <s:String x:Key="UpdateAndExit">Закрыть и обновить сейчас</s:String>
@@ -100,11 +100,11 @@ YouTube Playlist Downloader v</s:String>
 Пожалуйста, обратите внимание, что если программа закрыта, новые видео не будут загружены.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Связь</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">Есть несколько способов связаться со мной (shaked6540): 
+    <s:String x:Key="ContactTheDeveloperHelp">Есть несколько способов связаться со мной (dardizzola): 
         
-Первый способ – Reddit. Просто отправьте мне сообщение на Reddit, и я отвечу на него, как только смогу. Вот ссылка на мой профиль: https://www.reddit.com/user/shaked6540/
+Первый способ – Reddit. Просто отправьте мне сообщение на Reddit, и я отвечу на него, как только смогу. Вот ссылка на мой профиль: https://www.reddit.com/user/dardizzola/
         
-Третий способ связаться со мной – через GitHub, просто создайте новую "проблему", и я постараюсь ответить, как только смогу, вот ссылка: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+Третий способ связаться со мной – через GitHub, просто создайте новую "проблему", и я постараюсь ответить, как только смогу, вот ссылка: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Автоматически проверять наличие обновлений при запуске программы</s:String>
     <s:String x:Key="WhatsNew">Что нового?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Обновлять подписки каждые</s:String>
