@@ -1,13 +1,11 @@
 ﻿global using ControlzEx.Theming;
-
+global using LaMuccaRossaVideoDownloader.Objects;
+global using LaMuccaRossaVideoDownloader.Utilities;
 global using MahApps.Metro.Controls;
 global using MahApps.Metro.Controls.Dialogs;
 global using MahApps.Metro.IconPacks;
-
 global using MoreLinq;
-
 global using Newtonsoft.Json;
-
 global using System;
 global using System.Collections.Generic;
 global using System.Collections.ObjectModel;
@@ -20,8 +18,6 @@ global using System.IO;
 global using System.Linq;
 global using System.Net.Http;
 global using System.Reflection;
-global using System.Resources;
-global using System.Runtime.InteropServices;
 global using System.Text;
 global using System.Text.RegularExpressions;
 global using System.Threading;
@@ -34,17 +30,12 @@ global using System.Windows.Forms;
 global using System.Windows.Input;
 global using System.Windows.Media.Imaging;
 global using System.Windows.Threading;
-
 global using YoutubeExplode;
 global using YoutubeExplode.Channels;
 global using YoutubeExplode.Common;
 global using YoutubeExplode.Playlists;
 global using YoutubeExplode.Videos;
 global using YoutubeExplode.Videos.Streams;
-
-global using LaMuccaRossaVideoDownloader.Objects;
-global using LaMuccaRossaVideoDownloader.Utilities;
-
 global using Application = System.Windows.Application;
 global using Binding = System.Windows.Data.Binding;
 global using Brushes = System.Windows.Media.Brushes;
