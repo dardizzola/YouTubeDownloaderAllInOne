@@ -43,10 +43,10 @@
     <s:String x:Key="Prefer">Çözünürlüğü şu olan videoları tercih et </s:String>
     <s:String x:Key="AreYouSureExit">Çıkmak istiyor musunuz?</s:String>
     <s:String x:Key="TotalVideos">Toplam Video: </s:String>
-    <s:String x:Key="AboutTheProgram">Bu program shaked6540 tarafından geliştirilmiştir ve sınırlama olmadan kullanımı tamamen ücretsizdir.
+    <s:String x:Key="AboutTheProgram">Bu program dardizzola tarafından geliştirilmiştir ve sınırlama olmadan kullanımı tamamen ücretsizdir.
 Ancak, bu programın size getireceği herhangi bir yasal sorundan sorumlu değilim.
 Bildiğim kadarıyla, YouTube web sitelerinden video indirmeye izin vermiyor.
-Bu programın tam kaynak kodu https://github.com/shaked6540/YoutubePlaylistDownloader adresinde bulunabilir.
+Bu programın tam kaynak kodu https://github.com/dardizzola/YoutubePlaylistDownloader adresinde bulunabilir.
         
 Yükleyici, Inno Setup kullanılarak yapıldı (http://www.jrsoftware.org/isinfo.php)
     
@@ -59,7 +59,7 @@ Neler yeni: </s:String>
     <s:String x:Key="DownloadingUpdateSetup">Şuan indirilen: Güncelleme Kurulumu</s:String>
     <s:String x:Key="UpdateCancelled">Güncelleme iptal edildi.</s:String>
     <s:String x:Key="ErrorWhileUpdating">Güncelleme ayarları indirilirken bir hata oluştu, internete bağlı olduğunuzdan emin olun.
-İnternete bağlıysanız, daha sonra indirmeyi deneyin veya indirme sunucusuyla ilgili bir sorun olup olmadığını görmek için https://github.com/shaked6540/YoutubePlaylistDownloader/issues adresini ziyaret edin.</s:String>
+İnternete bağlıysanız, daha sonra indirmeyi deneyin veya indirme sunucusuyla ilgili bir sorun olup olmadığını görmek için https://github.com/dardizzola/YoutubePlaylistDownloader/issues adresini ziyaret edin.</s:String>
     <s:String x:Key="UpdateComplete">İndirme tamamlandı.</s:String>
     <s:String x:Key="UpdateWhenIExit">Çıktığımda Güncelle</s:String>
     <s:String x:Key="UpdateAndExit">Şimdi Kapat ve Güncelle</s:String>
@@ -101,11 +101,11 @@ Tüm abonelikler özelleştirilebilir ve kendi ayarlarına sahiptir, abonelik ay
 Program çalışmıyorsa, yeni videoların indirilmeyeceğini lütfen unutmayın.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">İletişim</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">Benimle iletişim kurmanın birkaç yolu var (shaked6540):
+    <s:String x:Key="ContactTheDeveloperHelp">Benimle iletişim kurmanın birkaç yolu var (dardizzola):
         
-İlki Reddit, bana Reddit üzerinden bir mesaj gönderirseniz size en kısa sürede cevap veririm. Profil bağlantım: https://www.reddit.com/user/shaked6540/
+İlki Reddit, bana Reddit üzerinden bir mesaj gönderirseniz size en kısa sürede cevap veririm. Profil bağlantım: https://www.reddit.com/user/dardizzola/
         
-Benimle iletişim kurmanın üçüncü yolu GitHub'dan geçiyor, sadece yeni bir konu başlığı (issue) oluşturun, en kısa sürede yanıt vermeye çalışacağım. İşte bağlantı: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+Benimle iletişim kurmanın üçüncü yolu GitHub'dan geçiyor, sadece yeni bir konu başlığı (issue) oluşturun, en kısa sürede yanıt vermeye çalışacağım. İşte bağlantı: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Programı başlattığımda güncellemeleri otomatik olarak kontrol et</s:String>
     <s:String x:Key="WhatsNew">Neler Yeni?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Her abonliği güncelleyin</s:String>

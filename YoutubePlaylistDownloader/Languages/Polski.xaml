@@ -42,10 +42,10 @@
     <s:String x:Key="Prefer">Preferuj fily o rodzielczości</s:String>
     <s:String x:Key="AreYouSureExit">Czy jesteś pewien że chcesz wyjść?</s:String>
     <s:String x:Key="TotalVideos">Ilość filmów: </s:String>
-    <s:String x:Key="AboutTheProgram">Ten program został napisany przez shaked6540 i jest całkowicie darmowy do użytku bez ograniczeń.
+    <s:String x:Key="AboutTheProgram">Ten program został napisany przez dardizzola i jest całkowicie darmowy do użytku bez ograniczeń.
 Niemniej, autor nie ponosi odpowiedzialności za żadne szkody powstałe w wyniku korzystania z programu, 
 w szczególności że YouTube nie pozwala na pobieranie plików ze swojej strony. 
-Pełny kod źródłowy tego oprogramowania jest dostepny na stronie https://github.com/shaked6540/YoutubePlaylistDownloader
+Pełny kod źródłowy tego oprogramowania jest dostepny na stronie https://github.com/dardizzola/YoutubePlaylistDownloader
         
 Instalator opracowano przy użyciu Inno Setup (http://www.jrsoftware.org/isinfo.php)
     
@@ -58,7 +58,7 @@ Lista zmian:</s:String>
     <s:String x:Key="DownloadingUpdateSetup">Pobieranie: instalator atualizacji</s:String>
     <s:String x:Key="UpdateCancelled">Aktualizacja została anulowana.</s:String>
     <s:String x:Key="ErrorWhileUpdating">Wystąpił błąd podczas pobierania aktualizaji, upewnij się że komputerma dostęp do internetu.
-Jeśli pobieranie nie powiodło się mimo aktywnego połączenia internetowego, spróbuj pobrać ponownie później lub sprawdź bieżące problemy z serwerem pod adresem https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+Jeśli pobieranie nie powiodło się mimo aktywnego połączenia internetowego, spróbuj pobrać ponownie później lub sprawdź bieżące problemy z serwerem pod adresem https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="UpdateComplete">Pobieranie ukończone.</s:String>
     <s:String x:Key="UpdateWhenIExit">Uaktualnij przy wyjściu.</s:String>
     <s:String x:Key="UpdateAndExit">Zamknij aplikację i uaktualnij teraz</s:String>
@@ -100,11 +100,11 @@ Wszystkie subskrypcje można dostosować i mają własne ustawienia. Aby uzyska�
 Należy pamiętać, że jeśli program nie jest uruchomiony, nowe filmy nie zostaną pobrane.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Kontakt</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">Istnieje kilka sposobów, aby się ze mną skontaktować (shaked6540):
+    <s:String x:Key="ContactTheDeveloperHelp">Istnieje kilka sposobów, aby się ze mną skontaktować (dardizzola):
         
-Pierwszym z nich jest Reddit, po prostu wyślij mi wiadomość na Reddit, a ja odpowiem tak szybko, jak to możliwe, to jest mój link do profilu: https://www.reddit.com/user/shaked6540/
+Pierwszym z nich jest Reddit, po prostu wyślij mi wiadomość na Reddit, a ja odpowiem tak szybko, jak to możliwe, to jest mój link do profilu: https://www.reddit.com/user/dardizzola/
         
-Trzecim sposobem skontaktowania się ze mną jest GitHub, po prostu otwórz nowy problem, a ja postaram się odpowiedzieć tak szybko, jak to możliwe, oto link: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+Trzecim sposobem skontaktowania się ze mną jest GitHub, po prostu otwórz nowy problem, a ja postaram się odpowiedzieć tak szybko, jak to możliwe, oto link: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Sprawdzaj dostepność aktualizacji przy starcie programu</s:String>
     <s:String x:Key="WhatsNew">Nowości</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Uaktualniaj subskrypcje co</s:String>

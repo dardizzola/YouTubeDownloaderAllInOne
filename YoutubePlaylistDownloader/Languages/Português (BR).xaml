@@ -43,10 +43,10 @@
     <s:String x:Key="Prefer">Preferir vídeos com uma resolução de </s:String>
     <s:String x:Key="AreYouSureExit">Você tem certeza que deseja sair?</s:String>
     <s:String x:Key="TotalVideos">Total de vídeos: </s:String>
-    <s:String x:Key="AboutTheProgram">Esse programa foi desenvolvido por shaked6540 e é completamente gratuito para uso sem limitações.
+    <s:String x:Key="AboutTheProgram">Esse programa foi desenvolvido por dardizzola e é completamente gratuito para uso sem limitações.
 Contudo, eu não sou responsável por qualquer problema legal que esse programa causará a voce, até onde eu sei, o Youtube não permite baixar vídeos do seu site.
 O código-fonte completo desse programa pode ser encontrado em:
-https://github.com/shaked6540/YoutubePlaylistDownloader
+https://github.com/dardizzola/YoutubePlaylistDownloader
 
 O instalador foi feito usando Inno Setup (http://www.jrsoftware.org/isinfo.php)
 
@@ -58,7 +58,7 @@ Aqui está o que tem de novo: </s:String>
     <s:String x:Key="DownloadingUpdateSetup">Download em andamento: Update Setup</s:String>
     <s:String x:Key="UpdateCancelled">Atualização em andamento.</s:String>
     <s:String x:Key="ErrorWhileUpdating">Um erro ocorreu enquanto baixavamos o Update Setup, certifique-se de que você está conectado a internet, se você está conectado a internet, tenta baixar mais tarde ou visite:
- https://github.com/shaked6540/YoutubePlaylistDownloader/issues to see if theres an issue with the download server</s:String>
+ https://github.com/dardizzola/YoutubePlaylistDownloader/issues to see if theres an issue with the download server</s:String>
     <s:String x:Key="UpdateComplete">Download Completo</s:String>
     <s:String x:Key="UpdateWhenIExit">Atualizar quando eu sair</s:String>
     <s:String x:Key="UpdateAndExit">Fechar e atualizar agora</s:String>
@@ -100,11 +100,11 @@ Todas as inscrições são personalizáveis e têm suas próprias configuraçõe
 Por favor note que se o programa não estiver sendo executado, novos vídeos não serão baixados.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Contato</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">Há muitas formas de entrar em contato comigo (shaked65400):
+    <s:String x:Key="ContactTheDeveloperHelp">Há muitas formas de entrar em contato comigo (dardizzola0):
 
-A primeira delas é pelo Reddit, simplesmente me mande uma mensagem pelo Reddit e eu irei responder o mais rápido que poder, esse é o link do meu perfil: https://www.reddit.com/user/shaked6540/ 
+A primeira delas é pelo Reddit, simplesmente me mande uma mensagem pelo Reddit e eu irei responder o mais rápido que poder, esse é o link do meu perfil: https://www.reddit.com/user/dardizzola/ 
 
-A terceira forma de falar comigo é através do GitHub, simplesmente abra uma nova questão e eu vou tentar responder o mais rápido que poder, esse é o link: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+A terceira forma de falar comigo é através do GitHub, simplesmente abra uma nova questão e eu vou tentar responder o mais rápido que poder, esse é o link: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Automaticamente checar novas atualizações quando iniciar o programa</s:String>
     <s:String x:Key="WhatsNew">O que tem de novo?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Atualizar inscrições a cada minuto</s:String>

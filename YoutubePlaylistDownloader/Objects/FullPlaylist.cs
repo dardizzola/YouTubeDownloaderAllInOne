@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader.Objects;
+﻿namespace LaMuccaRossaVideoDownloader.Objects;
 
 public class FullPlaylist(Playlist basePlaylist, IEnumerable<IVideo> videos, string title = null)
 {

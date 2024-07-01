@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader.Objects;
+﻿namespace LaMuccaRossaVideoDownloader.Objects;
 
 [JsonObject]
 public class DownloadSettings
@@ -141,33 +141,41 @@ public class DownloadSettings
 	public string GetFilenameByPattern(IVideo video, int vIndex, string file, FullPlaylist playlist = null)
 	{
 		if (video == null)
-			return file;
+        {
+            return file;
+        }
 
-		var genre = video.Title.Split('[', ']').ElementAtOrDefault(1);
+        var genre = video.Title.Split('[', ']').ElementAtOrDefault(1);
 		string artist = "", vTitle = "";
 
 		if (genre == null)
-			genre = string.Empty;
+        {
+            genre = string.Empty;
+        }
+        else if (genre.Length >= video.Title.Length)
+        {
+            genre = string.Empty;
+        }
 
-		else if (genre.Length >= video.Title.Length)
-			genre = string.Empty;
-
-
-		var title = video.Title;
+        var title = video.Title;
 
 		if (!string.IsNullOrWhiteSpace(genre))
 		{
 			title = video.Title.Replace($"[{genre}]", string.Empty);
 			var rm = title.Split('[', ']', '【', '】').ElementAtOrDefault(1);
 			if (!string.IsNullOrWhiteSpace(rm))
-				title = title.Replace($"[{rm}]", string.Empty);
-		}
+            {
+                title = title.Replace($"[{rm}]", string.Empty);
+            }
+        }
 		title = title.TrimStart(' ', '-', '[', ']');
 		var lowerGenre = genre.ToLower();
 		if (new[] { "download", "out now", "mostercat", "video", "lyric", "release", "ncs" }.Any(lowerGenre.Contains))
-			genre = string.Empty;
+        {
+            genre = string.Empty;
+        }
 
-		var index = title.LastIndexOf('-');
+        var index = title.LastIndexOf('-');
 		if (index > 0)
 		{
 			vTitle = title[(index + 1)..].Trim(' ', '-');
@@ -175,8 +183,10 @@ public class DownloadSettings
 			{
 				index = title.IndexOf('-');
 				if (index > 0)
-					vTitle = title[(index + 1)..].Trim(' ', '-');
-			}
+                {
+                    vTitle = title[(index + 1)..].Trim(' ', '-');
+                }
+            }
 			artist = string.Join(", ", title[..(index - 1)].Trim().Split(["&", "feat.", "feat", "ft.", " ft ", "Feat.", " x ", " X "], StringSplitOptions.RemoveEmptyEntries));
 		}
 		var result = FilenamePattern

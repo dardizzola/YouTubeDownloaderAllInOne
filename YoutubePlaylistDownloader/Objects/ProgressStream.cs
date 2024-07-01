@@ -1,15 +1,12 @@
-﻿namespace YoutubePlaylistDownloader.Objects;
+﻿namespace LaMuccaRossaVideoDownloader.Objects;
 
 /// <summary>
 /// Wraps another stream and provides reporting for when bytes are read or written to the stream.
 /// </summary>
 public class ProgressStream : Stream
 {
-	#region Private Data Members
 	private readonly Stream innerStream;
-	#endregion
 
-	#region Constructor
 	/// <summary>
 	/// Creates a new ProgressStream supplying the stream for it to report on.
 	/// </summary>
@@ -18,9 +15,7 @@ public class ProgressStream : Stream
 	{
 		innerStream = streamToReportOn != null ? streamToReportOn : throw new ArgumentNullException(nameof(streamToReportOn));
 	}
-	#endregion
 
-	#region Events
 	/// <summary>
 	/// Raised when bytes are read from the stream.
 	/// </summary>
@@ -50,9 +45,7 @@ public class ProgressStream : Stream
 
 	protected virtual void OnBytesMoved(int bytesMoved, bool isRead) => BytesMoved?.Invoke(this, new ProgressStreamReportEventArgs(bytesMoved, innerStream.Length, innerStream.Position, isRead));
 
-	#endregion
 
-	#region Stream Members
 
 	public override bool CanRead => innerStream.CanRead;
 
@@ -106,7 +99,6 @@ public class ProgressStream : Stream
 		innerStream.Close();
 		base.Close();
 	}
-	#endregion
 }
 
 /// <summary>

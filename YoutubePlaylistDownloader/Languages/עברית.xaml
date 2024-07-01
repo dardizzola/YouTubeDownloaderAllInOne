@@ -42,10 +42,10 @@
     <s:String x:Key="Prefer">העדף סרטונים ברזולוציה </s:String>
     <s:String x:Key="AreYouSureExit">האם אתה בטוח שברצונך לצאת?</s:String>
     <s:String x:Key="TotalVideos">כמות סרטונים: </s:String>
-    <s:String x:Key="AboutTheProgram">תוכנית זו פותחה על ידי shaked6540 והיא חופשית לחלוטין לשימוש ללא הגבלה.
+    <s:String x:Key="AboutTheProgram">תוכנית זו פותחה על ידי dardizzola והיא חופשית לחלוטין לשימוש ללא הגבלה.
 עם זאת, אינני אחראי לכל בעיה משפטית שתכנית זו תגרום לך,
 עד כמה שידוע לי, YouTube אינו מתיר הורדת סרטונים מהאתר שלהם. 
-קוד המקור המלא של התכונה זמין בלינק הבא: https://github.com/shaked6540/YoutubePlaylistDownloader
+קוד המקור המלא של התכונה זמין בלינק הבא: https://github.com/dardizzola/YoutubePlaylistDownloader
     
 ההתקנה נוצרה בעזרת Inno Setup (http://www.jrsoftware.org/isinfo.php)
 
@@ -59,7 +59,7 @@ YouTube Playlist Downloader v</s:String>
     <s:String x:Key="DownloadingUpdateSetup">כרגע מוריד: Update Setup</s:String>
     <s:String x:Key="UpdateCancelled">העדכון בוטל.</s:String>
     <s:String x:Key="ErrorWhileUpdating">אירעה שגיאה בעת הורדת קובץ העדכון, וודא כי אתה מחובר לאינטרנט
-אם אתה מחובר לאינטרנט, נסה שוב מאוחר יותר או בדוק באתר https://github.com/shaked6540/YoutubePlaylistDownloader/issues כדי לבדוק אם יש תקלות בשרת ההורדה</s:String>
+אם אתה מחובר לאינטרנט, נסה שוב מאוחר יותר או בדוק באתר https://github.com/dardizzola/YoutubePlaylistDownloader/issues כדי לבדוק אם יש תקלות בשרת ההורדה</s:String>
     <s:String x:Key="UpdateComplete">ההורדה הושלמה</s:String>
     <s:String x:Key="UpdateWhenIExit">עדכן אחרי שאני יוצא</s:String>
     <s:String x:Key="UpdateAndExit">סגור את התוכנה ועדכן עכשיו</s:String>
@@ -100,11 +100,11 @@ YouTube Playlist Downloader v</s:String>
 שים לב שאם התוכנית אינה פועלת, לא יורדו סרטונים חדשים
     </s:String>
     <s:String x:Key="ContactTheDeveloper">צור קשר</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">ישנן מספר דרכים ליצור עמנו קשר (shaked6540):
+    <s:String x:Key="ContactTheDeveloperHelp">ישנן מספר דרכים ליצור עמנו קשר (dardizzola):
         
-הראשונה היא Reddit, פשוט לשלוח לי הודעה ב Reddit ואני יגיב ברגע שאני יכול, זה קישור הפרופיל שלי: https://www.reddit.com/user/shaked6540/
+הראשונה היא Reddit, פשוט לשלוח לי הודעה ב Reddit ואני יגיב ברגע שאני יכול, זה קישור הפרופיל שלי: https://www.reddit.com/user/dardizzola/
         
-הדרך השלישית ליצור איתי קשר היא באמצעות GitHub, פשוט לפתוח בעיה חדשה ואני אנסה להגיב בהקדם האפשרי, הנה קישור: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+הדרך השלישית ליצור איתי קשר היא באמצעות GitHub, פשוט לפתוח בעיה חדשה ואני אנסה להגיב בהקדם האפשרי, הנה קישור: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">חפש אוטומטית עדכונים כאשר אני מפעיל את התוכנית</s:String>
     <s:String x:Key="WhatsNew">מה חדש?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">עדכן הרשמות כל</s:String>

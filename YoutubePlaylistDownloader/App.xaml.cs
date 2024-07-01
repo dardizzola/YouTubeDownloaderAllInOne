@@ -1,4 +1,4 @@
-﻿namespace YoutubePlaylistDownloader;
+﻿namespace LaMuccaRossaVideoDownloader;
 
 /// <summary>
 /// Interaction logic for App.xaml

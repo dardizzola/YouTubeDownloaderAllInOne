@@ -3,7 +3,7 @@
                     xmlns:s="clr-namespace:System;assembly=mscorlib"
                     xml:space="preserve">
     
-    <s:String x:Key="Title">YouTube Playlist Downloader</s:String>
+    <s:String x:Key="Title">La Mucca Rossa Video Downloader</s:String>
     <FlowDirection x:Key="FlowDirection">LeftToRight</FlowDirection>
     <s:String x:Key="InsertYoutubePlaylistLinkHere">Insert a YouTube link here</s:String>
     <s:String x:Key="Exit">Exit</s:String>
@@ -29,7 +29,7 @@
     <s:String x:Key="Canceling">Cancelling your downloads, please wait...</s:String>
     <s:String x:Key="Videos">Videos</s:String>
     <s:String x:Key="Download">Download</s:String>
-    <s:String x:Key="ConvertToMp3">Convert videos to</s:String>
+    <s:String x:Key="ConvertToMp3">Convert to</s:String>
     <s:String x:Key="SaveVideoFormat">Save videos as </s:String>
     <s:String x:Key="StillConverting">Still converting</s:String>
     <s:String x:Key="files">files</s:String>
@@ -42,15 +42,11 @@
     <s:String x:Key="Prefer">Prefer videos with a resolution of</s:String>
     <s:String x:Key="AreYouSureExit">Are you sure you want to exit?</s:String>
     <s:String x:Key="TotalVideos">Total videos: </s:String>
-    <s:String x:Key="AboutTheProgram">This program was developed by shaked6540 and it is completely free to use without limitation.
-However, I am not responsible for any legal trouble that this program will cause you, 
-as far as I know, YouTube does not permit downloading videos from their website. 
-The full source code for this program can be found at https://github.com/shaked6540/YoutubePlaylistDownloader
-        
-The installer was made using Inno Setup (http://www.jrsoftware.org/isinfo.php)
+    <s:String x:Key="AboutTheProgram">This program was developed by La Mucca Rossa and is completely free without limitations.
+La Mucca Rossa is not responsible for any legal problems this program causes.
     
 
-YouTube Playlist Downloader v</s:String>
+La Mucca Rossa Video Downloader version </s:String>
     <s:String x:Key="BitRate">and set the bit rate to</s:String>
     <s:String x:Key="NewVersionAvailable">New version available</s:String>
     <s:String x:Key="DoYouWantToUpdate">A new version is available, do you want to update?
@@ -58,7 +54,7 @@ Here's what's new:</s:String>
     <s:String x:Key="DownloadingUpdateSetup">Currently downloading: Update Setup</s:String>
     <s:String x:Key="UpdateCancelled">Update was cancelled.</s:String>
     <s:String x:Key="ErrorWhileUpdating">An error has occurred while downloading the update setup, make sure you're connected to the Internet.
-If you are connected to the Internet, try downloading a later time or visit https://github.com/shaked6540/YoutubePlaylistDownloader/issues to see if theres an issue with the download server.</s:String>
+If you are connected to the Internet, try downloading a later time.</s:String>
     <s:String x:Key="UpdateComplete">Download complete.</s:String>
     <s:String x:Key="UpdateWhenIExit">Update when I exit</s:String>
     <s:String x:Key="UpdateAndExit">Close and update now</s:String>
@@ -100,11 +96,7 @@ All subscriptions are customizable and have their own settings, to access subscr
 Please note that if the program is not running, new videos will not be downloaded.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Contact</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">There are several ways to contact me (shaked6540): 
-
-The first one is Reddit, simply send me a message on Reddit and I will respond as soon as I can, this is my profile link: https://www.reddit.com/user/shaked6540/
-
-The second way to contact me is through GitHub, simply open a new issue and I will try to respond as soon as possible, here is a link: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+    <s:String x:Key="ContactTheDeveloperHelp">La Mucca Rossa</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Automatically check for updates when I start the program</s:String>
     <s:String x:Key="WhatsNew">What's new?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Update subscriptions every</s:String>
@@ -112,18 +104,7 @@ The second way to contact me is through GitHub, simply open a new issue and I wi
     <s:String x:Key="SaveDownloadOptions">Save my download preferences</s:String>
     <s:String x:Key="DownloadSpeed">Download speed: </s:String>
     <s:String x:Key="Changelog">Changelog</s:String>
-    <s:String x:Key="DongChunrui">Dong Cunrui (董存瑞)</s:String>
-    <s:String x:Key="CreditsAndContributors">Many thanks to these people for translating this software: 
-Dong Cunrui (董存瑞)
-RichyZ99
-Jhonatan Lima (Heremitus)
-İskender ALPSAKARYA, Alp Eren GENÇOĞLU (Türkçe)
-Stephan Komov (Deutsch)
-Elta (Français)
-Ahmed Waaer (Arabic)
-Bartlomiej Szmolke (Polski)  
-Timofey Dedov (Русский)
-</s:String>
+    <s:String x:Key="CreditsAndContributors">Implementation, rebranding and customization by Davide Ardizzola</s:String>
     <s:String x:Key="Search">Search</s:String>
     <s:String x:Key="Queue">Queue</s:String>
     <s:String x:Key="Downloading">Downloading...</s:String>
@@ -136,8 +117,7 @@ Timofey Dedov (Русский)
     <s:String x:Key="CaptionsLanguage">Closed captions language:</s:String>
     <s:String x:Key="BulkDownload">Bulk Download</s:String>
     <s:String x:Key="LimitConverstions">Set the maximum concurrent file conversions to</s:String>
-    <s:String x:Key="ValueChangeRequiresRestart">(enabling the limit requires a 
-program restart to take effect)</s:String>
+    <s:String x:Key="ValueChangeRequiresRestart">(enabling the limit requires a program restart to take effect)</s:String>
     <s:String x:Key="ConversionsLimitingExplanation">Every file conversion takes about one core completely. For example: if you have a 4
 cores CPU, limiting the program to 3 file conversions at a time will use 3 cores out of 4;
 in Task Manager you will see that the program uses a little more than 75% CPU.
@@ -173,7 +153,8 @@ $songtitle: The title of the song
 $channel: The name of the channel that uploaded the video
 $videoid: The unique ID of the video (taken from the video url)
 $playlist: The title of the plyalist
-
+$genre: Genre
+        
 So for example, if my file name pattern is "song: [$playlist] $artist - $songtitle ($channel) $index" the result file name would be "song: [Example] Infected Mushroom - Spitfire (Monstercat) 1"
 You can add any other text between the parameters, only the parameters will be replaced.
 Please note that not all the parameters are always available (for example, when downloading a single video the $playlisttitle variable would not be available), and in case they are missing they will be removed from the file name</s:String>

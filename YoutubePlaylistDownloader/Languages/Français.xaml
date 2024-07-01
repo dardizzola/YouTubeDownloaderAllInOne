@@ -43,10 +43,10 @@
     <s:String x:Key="Prefer">Préferer les vidéos avec une résolution de </s:String>
     <s:String x:Key="AreYouSureExit">Etes-vous sûr de vouloir quitter?</s:String>
     <s:String x:Key="TotalVideos">Total de vidéos: </s:String>
-    <s:String x:Key="AboutTheProgram">Ce logiciel a été développé par shaked6540 et est complétement gratuit d'utilisation sans restrictions.
+    <s:String x:Key="AboutTheProgram">Ce logiciel a été développé par dardizzola et est complétement gratuit d'utilisation sans restrictions.
 Cependant, Je ne suis pas responsable pour for n'importe quel problème juridique que ce logiciel pourrait vous causer, 
 pour autant que je sache, YouTube ne permet pas de télécharger des vidéos à partir de leur site internet. 
-Le code source complet de ce programme peut être trouvé sur https://github.com/shaked6540/YoutubePlaylistDownloader
+Le code source complet de ce programme peut être trouvé sur https://github.com/dardizzola/YoutubePlaylistDownloader
         
 L'installeur a été créé en utilisant Inno Setup (http://www.jrsoftware.org/isinfo.php)
     
@@ -59,7 +59,7 @@ Voici les nouveautés: </s:String>
     <s:String x:Key="DownloadingUpdateSetup">Téléchargement en cours: Mise à jour</s:String>
     <s:String x:Key="UpdateCancelled">La mise à jour a été annulée.</s:String>
     <s:String x:Key="ErrorWhileUpdating">Une erreur s'est produite lors du téléchargement de la mise à jour, assurez-vous que vous êtes connecté à Internet
-si vous êtes connectés à internet, Essayez de re-télécharger plus tard ou d'aller sur https://github.com/shaked6540/YoutubePlaylistDownloader/issues pour voir s'il y a un problème avec le serveur de téléchargement</s:String>
+si vous êtes connectés à internet, Essayez de re-télécharger plus tard ou d'aller sur https://github.com/dardizzola/YoutubePlaylistDownloader/issues pour voir s'il y a un problème avec le serveur de téléchargement</s:String>
     <s:String x:Key="UpdateComplete">Téléchargement fini.</s:String>
     <s:String x:Key="UpdateWhenIExit">Mettre à jour quand je quitte</s:String>
     <s:String x:Key="UpdateAndExit">Fermer et mettre à jour</s:String>
@@ -100,11 +100,11 @@ Tous les abonnements sont personnalisables et ont leurs propres paramètres, pou
 Veuillez noter que si le programme n'est pas en cours d'exécution, les nouvelles vidéos ne seront pas téléchargées
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Contact</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">Il y a plusieurs moyens de me contacter (shaked6540): 
+    <s:String x:Key="ContactTheDeveloperHelp">Il y a plusieurs moyens de me contacter (dardizzola): 
         
-Le premier moyen est Reddit, envoyez-moi simplement un message sur Reddit et je vous répondrai dès que possible, voilà mon lien de profil: https://www.reddit.com/user/shaked6540/
+Le premier moyen est Reddit, envoyez-moi simplement un message sur Reddit et je vous répondrai dès que possible, voilà mon lien de profil: https://www.reddit.com/user/dardizzola/
         
-Le troisième moyen de me contacter est sur GitHub, créez simplement une nouvelle requête (issues) et j'essaierai de répondre dans les plus brefs délais, voici le lien: https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+Le troisième moyen de me contacter est sur GitHub, créez simplement une nouvelle requête (issues) et j'essaierai de répondre dans les plus brefs délais, voici le lien: https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Rechercher automatiquement les mises à jour lorsque je lance le programme</s:String>
     <s:String x:Key="WhatsNew">Quoi de neuf?</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">Mettre à jour les abonnements toutes les</s:String>

@@ -44,7 +44,7 @@
     <s:String x:Key="AreYouSureExit">你确定要离开?</s:String>
     <s:String x:Key="TotalVideos">总数视频: </s:String>
     <s:String x:Key="AboutTheProgram">这个计算机程序由开发 shaked6450 和免费使用.
-我不是负责的合法的困难.我所知道的 Youtube 才不是下载.源代码 https://github.com/shaked6540/YoutubePlaylistDownloader
+我不是负责的合法的困难.我所知道的 Youtube 才不是下载.源代码 https://github.com/dardizzola/YoutubePlaylistDownloader
         
 这个安装软件成功的运用 Inno Setup (http://www.jrsoftware.org/isinfo.php)
         
@@ -56,7 +56,7 @@ YouTube Playlist Downloader v</s:String>
 新功能: </s:String>
     <s:String x:Key="DownloadingUpdateSetup">目前下载:更新体系</s:String>
     <s:String x:Key="UpdateCancelled">更新已取消</s:String>
-    <s:String x:Key="ErrorWhileUpdating">发生了错误下载更新. 确保你有网络连接 要么稍后再试. 检查问题在这里: https://github.com/shaked6540/YoutubePlaylistDownloader/issues	</s:String>
+    <s:String x:Key="ErrorWhileUpdating">发生了错误下载更新. 确保你有网络连接 要么稍后再试. 检查问题在这里: https://github.com/dardizzola/YoutubePlaylistDownloader/issues	</s:String>
     <s:String x:Key="UpdateComplete">下载完成</s:String>
     <s:String x:Key="UpdateWhenIExit">退出后更新</s:String>
     <s:String x:Key="UpdateAndExit">现在更新</s:String>
@@ -89,8 +89,8 @@ YouTube Playlist Downloader v</s:String>
     <s:String x:Key="SubscriptionsHelp">订阅是频道电脑程序下载自动. 例如用户添加频道9月1日. 视频上传9月2日自动下载. 以前的视频没有下载.删除的项目不会再次下载. 订阅是定制. 单击订阅然后单击配置.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">联络我</s:String>
-    <s:String x:Key="ContactTheDeveloperHelp">有联的方法络我 (shaked6540):首先是 reddit. 我的 reddit 是 https://www.reddit.com/user/shaked6540/. 请发给我 PM 我会尽快回复您.
-我的 github 是 https://github.com/shaked6540/YoutubePlaylistDownloader/issues</s:String>
+    <s:String x:Key="ContactTheDeveloperHelp">有联的方法络我 (dardizzola):首先是 reddit. 我的 reddit 是 https://www.reddit.com/user/dardizzola/. 请发给我 PM 我会尽快回复您.
+我的 github 是 https://github.com/dardizzola/YoutubePlaylistDownloader/issues</s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">自动检查更新</s:String>
     <s:String x:Key="WhatsNew">新功能</s:String>
     <s:String x:Key="SubscriptionsUpdateDelay">更新我的订阅 </s:String>
