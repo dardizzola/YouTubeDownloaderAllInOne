@@ -22,10 +22,10 @@ DefaultGroupName=La Mucca Rossa Video Downloader
 AllowNoIcons=yes
 OutputDir=..\Installer Output\1.9.25\
 OutputBaseFilename=Setup.LaMuccaRossaVideoDownloader
-SetupIconFile=..\YoutubePlaylistDownloader\finalIcon.ico
+SetupIconFile=..\LaMuccaRossaVideoDownloader\finalIcon.ico
 Compression=lzma
 SolidCompression=yes
-UninstallDisplayIcon=..\YoutubePlaylistDownloader\finalIcon.ico
+UninstallDisplayIcon=..\LaMuccaRossaVideoDownloader\finalIcon.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -35,7 +35,7 @@ Name: "italian"; MessagesFile: "compiler:Languages\Italian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";
 
 [Files]
-Source: "..\YoutubePlaylistDownloader\bin\Debug\net8.0-windows\*"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\LaMuccaRossaVideoDownloader\bin\Debug\net8.0-windows\*"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\FFmpeg\ffmpeg.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files        
