@@ -194,8 +194,8 @@ static class GlobalConsts
 	public static void RestoreDefualts()
 	{
 		Log("Restoring defaults", "RestoreDefaults at GlobalConsts").Wait();
-		settings = new Objects.Settings("Dark", "Red", "English", Environment.GetFolderPath(Environment.SpecialFolder.MyVideos), false, false, true, TimeSpan.FromMinutes(1), true, 20, 2, true, true);
-		DownloadSettings = new DownloadSettings("mp3", false, YoutubeHelpers.High720, false, false, false, false, "192", false, "en", false, false, 0, 0, false, true, false, true, 4, "$title", false, "mkv");
+		settings = new Objects.Settings("Dark", "Red", "Italiano", Environment.GetFolderPath(Environment.SpecialFolder.MyVideos), false, false, true, TimeSpan.FromMinutes(1), true, 20, 2, true, true);
+		DownloadSettings = new DownloadSettings("mp3", false, YoutubeHelpers.High1080, false, false, false, false, "192", false, "it", false, false, 0, 0, false, true, false, true, 4, "$title", false, "mp4");
 		SaveConsts();
 	}
 	public static void LoadConsts()
@@ -272,7 +272,7 @@ static class GlobalConsts
 	}
 	private static void UpdateLanguage()
 	{
-		var toRemove = Application.Current.Resources.MergedDictionaries.First(x => x.Source.OriginalString.Contains("English"));
+		var toRemove = Application.Current.Resources.MergedDictionaries.First(x => x.Source.OriginalString.Contains("Italiano"));
 		ResourceDictionary r = new()
 		{
 			Source = new Uri($"/Languages/{settings.Language}.xaml", UriKind.Relative)

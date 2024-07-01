@@ -6,7 +6,7 @@
 Questo programma, fornito gratuitamente da [La Mucca Rossa](https://muccarossa.com), serve per scaricare intere playlist o canali o anche singoli video da YouTube.
 
 
-[Clicca qui per scaricare l'installer](https://github.com/dardizzola/LaMuccaRossaVideoDownloader/releases/download/1.9.24/LaMuccaRossaVideoDownloader.exe) 
+[Clicca qui per scaricare l'installer](https://github.com/dardizzola/LaMuccaRossaVideoDownloader/releases/download/1.9.25/LaMuccaRossaVideoDownloader.exe) 
 
 ## Caratteristiche principali
 - TOTALMENTE GRATUITA
