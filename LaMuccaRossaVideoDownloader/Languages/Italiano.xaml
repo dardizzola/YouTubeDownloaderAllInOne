@@ -25,7 +25,7 @@
     <s:String x:Key="Views">Visualizzazioni: </s:String>
     <s:String x:Key="SaveDirectory">Salva i video in:       
         (Se salvi su C: devi avviare l'applicazione come Amministratore)</s:String>
-    <s:String x:Key="BrowseFolders">Sfoglia cartelle</s:String>
+    <s:String x:Key="BrowseFolders">Scegli la cartella</s:String>
     <s:String x:Key="CurrentlyDownloading">Sto scaricando: </s:String>
     <s:String x:Key="TotalProgress">Scaricati: </s:String>
     <s:String x:Key="AllDone">Operazione completata.</s:String>

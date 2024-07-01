@@ -24,7 +24,7 @@
     <s:String x:Key="Views">Views: </s:String>
     <s:String x:Key="SaveDirectory">Save videos to:
         (If you save on C: you must start the application as Administrator)</s:String>
-    <s:String x:Key="BrowseFolders">Browse Folders</s:String>
+    <s:String x:Key="BrowseFolders">Choose the Folder</s:String>
     <s:String x:Key="CurrentlyDownloading">Currently downloading: </s:String>
     <s:String x:Key="TotalProgress">Downloaded so far: </s:String>
     <s:String x:Key="AllDone">All Done.</s:String>
