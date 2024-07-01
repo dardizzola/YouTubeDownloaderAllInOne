@@ -98,7 +98,8 @@ Attenzione: se il programma è spento, non scaricherà alcun video.
     </s:String>
     <s:String x:Key="ContactTheDeveloper">Contatti</s:String>
     <s:String x:Key="ContactTheDeveloperHelp">La Mucca Rossa
-        
+        ...
+        ...
         
 </s:String>
     <s:String x:Key="AutomaticallyCheckForUpdates">Cerca automaticamente aggiornamenti all'avvio del programma</s:String>

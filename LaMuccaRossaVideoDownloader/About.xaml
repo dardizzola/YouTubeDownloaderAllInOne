@@ -17,6 +17,7 @@
                         </Paragraph>
                         <Paragraph TextAlignment="Left" FlowDirection="LeftToRight">
                             <Run FontSize="14" Text="{DynamicResource CreditsAndContributors}" />
+                            
                         </Paragraph>
                         <Paragraph TextAlignment="Center">
                         <Image x:Name="AboutLogoLMR" Height="150" Width="270" Source="/Logo La Mucca Rossa 1096x591.png"/>
