@@ -7,8 +7,8 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{444538EE-4F35-4245-AEAE-6C149BB852B8}
 AppName=La Mucca Rossa Video Downloader
-AppVersion=1.9.24
-AppVerName=La Mucca Rossa Video Downloader 1.9.24
+AppVersion=1.9.25
+AppVerName=La Mucca Rossa Video Downloader 1.9.25
 AppPublisher=La Mucca Rossa
 AppPublisherURL=https://muccarossa.com/
 VersionInfoCompany=La Mucca Rossa
@@ -20,7 +20,7 @@ Password=PietroTest
 DefaultDirName={commonpf}\La Mucca Rossa Video Downloader
 DefaultGroupName=La Mucca Rossa Video Downloader
 AllowNoIcons=yes
-OutputDir=..\Installer Output\1.9.24\
+OutputDir=..\Installer Output\1.9.25\
 OutputBaseFilename=Setup.LaMuccaRossaVideoDownloader
 SetupIconFile=..\YoutubePlaylistDownloader\finalIcon.ico
 Compression=lzma
