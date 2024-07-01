@@ -19,5 +19,5 @@ Questo programma, fornito gratuitamente da [La Mucca Rossa](https://muccarossa.c
 - Supporto multilingue. Attualmente le traduzioni disponibili sono inglese, italiano e spagnolo. Altre lingue verranno aggiunte in futuro, se richieste.
 
 ## Screenshots
-![Gif](https://imgur.com/a/AyGbRn2"Gif")
+![Gif](https://imgur.com/a/AyGbRn2 "Gif")
 
