@@ -49,7 +49,12 @@
     <Compile Remove="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Icons and Images\Logo La Mucca Rossa 1096x591.png" />
+    <None Remove="Images\finalIcon.ico" />
+    <None Remove="Images\La Mucca Rossa - 150x150px.png" />
+    <None Remove="Images\La Mucca Rossa - 256x256.ico" />
+    <None Remove="Images\La Mucca Rossa - 256x256px.ico" />
+    <None Remove="Images\Logo La Mucca Rossa 1096x591.png" />
+    <None Remove="La Mucca Rossa - 150x150px.png" />
     <None Remove="Logo La Mucca Rossa 1096x591.png" />
   </ItemGroup>
   <ItemGroup>
@@ -64,9 +69,22 @@
     <Page Remove="Languages\中文.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Icons and Images\Logo La Mucca Rossa 1096x591.png">
+    <EmbeddedResource Include="Images\finalIcon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Images\La Mucca Rossa - 150x150px.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\La Mucca Rossa - 256x256.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\La Mucca Rossa - 256x256px.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Logo La Mucca Rossa 1096x591.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Resource Include="La Mucca Rossa - 150x150px.png" />
     <Resource Include="Logo La Mucca Rossa 1096x591.png" />
     <Resource Include="Resources\Entypo.ttf" />
   </ItemGroup>

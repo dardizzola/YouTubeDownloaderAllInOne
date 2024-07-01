@@ -9,9 +9,11 @@
                       Width="1280"
                       Height="720"
                       x:Name="SkeletonWindow"
-                      GlowBrush="White"
+                      GlowBrush="Red"
                       BorderThickness="0"
+                      ResizeMode="CanResizeWithGrip"
                       Title="{DynamicResource Title}"
+                      Icon="/finalIcon.ico"
                       FlowDirection="{DynamicResource FlowDirection}">
 
     <Controls:MetroWindow.Flyouts>

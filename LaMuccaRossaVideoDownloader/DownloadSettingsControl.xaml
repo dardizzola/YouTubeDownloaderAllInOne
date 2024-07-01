@@ -15,10 +15,13 @@
                 <StackPanel Margin="10,0,0,0" >
                     <StackPanel Orientation="Horizontal">
                         <Label Content="{DynamicResource SaveDirectory}" Margin="5"  />
-                        <TextBox x:Name="SaveDirectoryTextBox" Margin="5" TextChanged="SaveDirectoryTextBox_TextChanged" MouseDoubleClick="TextBox_MouseDoubleClick" HorizontalAlignment="Left" MinWidth="120" />
-                        <Controls:Tile Grid.Row="4" Grid.Column="2" Width="30" Height="30" Click="Tile_Click" HorizontalAlignment="Left" >
-                            <iconPacks:PackIconModern Width="20" Height="20" Kind="FolderOpen" Margin="5" />
+                        <TextBox x:Name="SaveDirectoryTextBox" Margin="5" TextChanged="SaveDirectoryTextBox_TextChanged" MouseDoubleClick="TextBox_MouseDoubleClick" HorizontalAlignment="Left" MinWidth="180" />
+                        <WrapPanel>
+                        <Controls:Tile Grid.Row="4" Grid.Column="2" Width="40" Height="40" Click="Tile_Click" HorizontalAlignment="Left" >
+                            <iconPacks:PackIconModern Width="30" Height="20" Kind="FolderOpen" Margin="9" />
                         </Controls:Tile>
+                            <TextBlock Text="{DynamicResource BrowseFolders}" VerticalAlignment="Center" FontSize="24" Margin="2.5,5,7.5,5" />
+                        </WrapPanel>
                     </StackPanel>
                     <CheckBox x:Name="UniquePlaylistDirectoryCheckBox" Content="{DynamicResource SavePlaylistInUniqueDirectory}" Margin="5" />
                     <CheckBox x:Name="OpenDestinationFolderCheckBox" Content="{DynamicResource OpenDestinationFolderOnFinish}" Margin="5" />
