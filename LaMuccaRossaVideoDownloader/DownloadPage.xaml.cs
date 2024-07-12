@@ -921,7 +921,7 @@ public partial class DownloadPage : UserControl, IDisposable, IDownload
 	private void Update(int percent, IVideo video)
 	{
 		CurrentDownloadProgressBar.Value = percent;
-		HeadlineTextBlock.Text = (string)FindResource("CurrentlyDownloading") + video.Title;
+		HeadlineTextBlock.Text = (string)FindResource("CurrentlyDownloading") + video.Title.Substring(0,50)+"...";
 		CurrentDownloadProgressBarTextBlock.Text = $"{percent}%";
 		TotalDownloadsProgressBarTextBlock.Text = $"{DownloadedCount} {FindResource("Of")} {Maximum}";
 		DownloadedVideosProgressBar.Value = DownloadedCount;
