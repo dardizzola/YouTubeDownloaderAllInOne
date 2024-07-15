@@ -4,7 +4,7 @@ global using LaMuccaRossaVideoDownloader.Utilities;
 global using MahApps.Metro.Controls;
 global using MahApps.Metro.Controls.Dialogs;
 global using MahApps.Metro.IconPacks;
-global using MoreLinq;
+
 global using Newtonsoft.Json;
 global using System;
 global using System.Collections.Generic;

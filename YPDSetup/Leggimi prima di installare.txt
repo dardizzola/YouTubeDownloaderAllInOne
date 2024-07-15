@@ -1,0 +1,14 @@
+Il file di setup LaMuccaRossaVideoDownloader-SETUP.exe come anche l'applicazione LaMuccaRossaVideoDownloader.exe
+non sono firmati, il che genera alcune limitazioni:
+1) Durante l'installazione (ScreenShot 1) come Autore risulta il nome Sconosciuto
+2) All'avvio del programma LaMuccaRossaVideoDownloader.exe l'antivirus di Windows potrebbe segnalare una minaccia (Screenshot 2)
+
+Per ovviare a questi invonvenienti è necessario acquistare un particolare Certificato Digitale da una Certification Authority Accreditata.
+Quando sarà il momento me lo direte e procederò con l'acquisto.
+NOTA BENE: i certiciati hanno sempre una validità tewmporale la cui durata varia da uno a tre anni.
+
+
+L'applicazione LaMuccaRossaVideoDownloader.exe, per funzionare, necessita del ".NET Desktop Runtime": se alla fine del Setup
+ne viene rilevata l'assenza, si apre in aautomatico una finestra per il download dello stesso (ScreenShot 2), procedere cliccando su DOWNLOAD.
+
+

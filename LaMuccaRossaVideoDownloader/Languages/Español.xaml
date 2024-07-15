@@ -106,7 +106,9 @@ Te recordamos que si la aplicación no se encuentra en ejecución, no se descarg
     <s:String x:Key="SaveDownloadOptions">Guardar mi configuración de descargas</s:String>
     <s:String x:Key="DownloadSpeed">Velocidad de descarga: </s:String>
     <s:String x:Key="Changelog">Changelog</s:String>
-    <s:String x:Key="CreditsAndContributors">Implementación, cambio de marca y personalización por Davide Ardizzola</s:String>
+    <s:String x:Key="CreditsAndContributors">Implementación, cambio de marca y personalización por Davide Ardizzola.
+    Muchas gracias a Luis Duenas por traducir este software.
+    </s:String>
     <s:String x:Key="Search">Buscar</s:String>
     <s:String x:Key="Queue">Cola</s:String>
     <s:String x:Key="Downloading">Descargando..</s:String>

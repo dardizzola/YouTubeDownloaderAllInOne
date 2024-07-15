@@ -29,7 +29,8 @@ public static partial class YoutubeHelpers
 		videoId = default;
 
 		if (string.IsNullOrWhiteSpace(videoUrl))
-        {
+        
+		{
             return false;
         }
 
